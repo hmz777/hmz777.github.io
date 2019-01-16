@@ -112,9 +112,6 @@ author:
   location         : "Syria"
   email            : "hamzi_alsheikh@hotmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:hamzi_alsheikh@hotmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://www.hmz-software.me"
