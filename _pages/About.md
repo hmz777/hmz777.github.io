@@ -1,5 +1,7 @@
-title:  "About"
-layout: archive
-permalink: /About/
-author_profile: true
+---
+title: "Posts by Year"
+permalink: /year-archive/
+layout: posts
 comments: true
+author_profile: true
+---
