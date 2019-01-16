@@ -1,7 +1,7 @@
 ---
 title: "About"
 permalink: /About/
-layout: posts
+layout: archive
 comments: true
 author_profile: true
 ---
