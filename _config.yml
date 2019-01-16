@@ -114,22 +114,22 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-       url: mailto:hamzi_alsheikh@hotmail.com
+      url: mailto:hamzi_alsheikh@hotmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-       url: "https://www.hmz-software.me"
+      url: "https://www.hmz-software.me"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-       url: "https://twitter.com/Hamzi__Alsheikh"
+      url: "https://twitter.com/Hamzi__Alsheikh"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-       url: "https://www.facebook.com/Hamzi.Alsheikh"
+      url: "https://www.facebook.com/Hamzi.Alsheikh"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: "https://github.com/hmz777"
+      url: "https://github.com/hmz777"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-       url: "https://instagram.com/hamzi_alsheikh/"
+      url: "https://instagram.com/hamzi_alsheikh/"
 
 # Site Footer
 footer:
