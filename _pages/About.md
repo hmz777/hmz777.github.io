@@ -1,6 +1,6 @@
 ---
-title: "Posts by Year"
-permalink: /year-archive/
+title: "About"
+permalink: /About/
 layout: posts
 comments: true
 author_profile: true
