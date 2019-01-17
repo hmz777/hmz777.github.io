@@ -13,8 +13,7 @@ tags:
 ### Introduction
 
 <figure>
-	<a href="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg"><img src="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg"></a>
-	<figcaption><a href="http://www.flickr.com/photos/80901381@N04/7758832526/" title="Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr">Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr</a>.</figcaption>
+	<a href=""><img src="assets/images/MovieGateBanner.jpg"></a>
 </figure>
 
 
@@ -23,6 +22,7 @@ MovieGate is a software that helps you browse and download movies, you can looku
 This project got finished in about two weeks, i had alot of fun in the process especially with the UI aspect.
 
 In addition it was my first experience with licensing and software protection, it may be a small project but working with licensing made me feel like i was designing a software for a big corporation XD.
+
 
 
 #### Download Link
