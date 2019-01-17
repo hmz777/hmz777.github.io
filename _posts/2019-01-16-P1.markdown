@@ -13,7 +13,7 @@ tags:
 ### Introduction
 
 <figure>
-	<a href=""><img src="assets/images/MovieGateBanner.jpg"></a>
+	<a href=""><img src="assets/images/MovieGateBanner.png"></a>
 </figure>
 
 
