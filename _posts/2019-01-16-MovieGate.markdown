@@ -22,9 +22,18 @@ This project got finished in about two weeks, i had alot of fun in the process e
 
 In addition it was my first experience with licensing and software protection, it may be a small project but working with licensing made me feel like i was designing a software for a big corporation XD.
 
+MovieGate has an auto update feature, it will notify the user whenever a new version is live.
+
+
+### Minimum System Requirements:
+
+OS: Windows 7 SP1 or later with .NET Framework 4.6.1 installed
+
+If you don't have the .NET Framework package don't worry the installer will download it automatically.
 
 
 #### Download Link:
+
 
 [MovieGate](https://github.com/hmz777/MovieGate/releases/download/1.0/MovieGateSetup.exe)
 
