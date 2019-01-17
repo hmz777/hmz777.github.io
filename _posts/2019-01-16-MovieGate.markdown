@@ -16,6 +16,7 @@ tags:
 
 ### Introduction
 
+
 MovieGate is a software that helps you browse and download movies, you can lookup movie information, watch trailers, with a nice and clean UI.
 
 This project got finished in about two weeks, i had alot of fun in the process especially with the UI aspect.
