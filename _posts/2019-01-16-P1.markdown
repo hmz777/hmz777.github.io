@@ -26,7 +26,7 @@ In addition it was my first experience with licensing and software protection, i
 
 #### Download Link:
 
-[MovieGate](http://www.google.com)
+[MovieGate](https://github.com/hmz777/MovieGate/releases/download/1.0/MovieGateSetup.exe)
 
 #### More features will be added in the future!
 
