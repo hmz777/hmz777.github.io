@@ -16,7 +16,6 @@ tags:
 	<a href=""><img src="/assets/images/Banner.jpg"></a>
 </figure>
 
-
 MovieGate is a software that helps you browse and download movies, you can lookup movie information, watch trailers, with a nice and clean UI.
 
 This project got finished in about two weeks, i had alot of fun in the process especially with the UI aspect.
@@ -27,7 +26,7 @@ In addition it was my first experience with licensing and software protection, i
 
 #### Download Link
 
-[MovieGate][Moive-Gate]
+[MovieGateDownloadLink][Moive-Gate]
 
 
 
