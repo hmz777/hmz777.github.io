@@ -24,6 +24,8 @@ In addition it was my first experience with licensing and software protection, i
 
 MovieGate has an auto update feature, it will notify the user whenever a new version is live.
 
+If you wish to purcahse a license contact me on one of the links on the left :)
+
 
 ### Minimum System Requirements:
 
