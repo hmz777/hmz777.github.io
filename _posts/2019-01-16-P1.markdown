@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "MovieGate"
-excerpt: "MovieGate official page."
+excerpt: "MovieGate Official Page."
 header:
   teaser: "/assets/images/MovieGateBanner.png"
 date:   2019-01-17 2:07:00 +0300
@@ -26,7 +26,7 @@ In addition it was my first experience with licensing and software protection, i
 
 #### Download Link
 
-[MovieGateDownloadLink][Moive-Gate]
+[MovieGateDownloadLink](www.google.com)
 
 
 
