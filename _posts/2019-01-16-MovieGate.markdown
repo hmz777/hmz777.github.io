@@ -10,11 +10,11 @@ tags:
   - Software
 ---
  
-### Introduction
-
 <figure>
 	<a href=""><img src="/assets/images/Banner.jpg"></a>
 </figure>
+
+### Introduction
 
 MovieGate is a software that helps you browse and download movies, you can lookup movie information, watch trailers, with a nice and clean UI.
 
