@@ -4,7 +4,7 @@ main:
     url: /Posts/
   - title: "About"
     url: /About/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+  - title: "Tags"
+     url: /Tags/
   # - title: "Sitemap"
   #   url: /sitemap/
