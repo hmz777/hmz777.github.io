@@ -4,7 +4,7 @@ title:  "MovieGate"
 excerpt: "MovieGate Official Page."
 header:
   teaser: "/assets/images/Banner.jpg"
-date:   2019-01-17 2:07:00 +0200
+date:   2019-01-18 2:07:00 +0200
 tags:
   - MovieGate 
   - Software
@@ -39,6 +39,10 @@ If you don't have the .NET Framework package don't worry the installer will down
 
 
 [MovieGate](https://github.com/hmz777/MovieGate/releases/download/1.0/MovieGateSetup.exe)
+
+#### Activation ID Generator
+
+[Activation ID Generator](https://github.com/hmz777/MovieGate/releases/download/1.0/Activation.ID.Generator.exe)
 
 #### More features will be added in the future!
 
