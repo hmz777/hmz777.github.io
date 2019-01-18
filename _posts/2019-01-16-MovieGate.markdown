@@ -40,7 +40,7 @@ If you don't have the .NET Framework package don't worry the installer will down
 
 [MovieGate](https://github.com/hmz777/MovieGate/releases/download/1.0/MovieGateSetup.exe)
 
-#### Activation ID Generator
+#### Activation ID Generator:
 
 [Activation ID Generator](https://github.com/hmz777/MovieGate/releases/download/1.0/Activation.ID.Generator.exe)
 
