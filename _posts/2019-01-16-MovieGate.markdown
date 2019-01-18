@@ -3,7 +3,7 @@ layout: single
 title:  "MovieGate"
 excerpt: "MovieGate Official Page."
 header:
-  teaser: "/assets/images/MovieGateBanner.png"
+  teaser: "/assets/images/Banner.jpg"
 date:   2019-01-17 2:07:00 +0200
 tags:
   - MovieGate 
