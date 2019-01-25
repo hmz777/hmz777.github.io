@@ -1,0 +1,60 @@
+---
+layout: single
+title:  "MovieGate"
+excerpt: "MovieGate Official Page."
+header:
+  teaser: "/assets/images/Banner.jpg"
+date:   2019-01-18 2:07:00 +0200
+tags:
+  - MovieGate 
+  - Software
+---
+ 
+<figure>
+	<a href=""><img src="/assets/images/Banner.jpg"></a>
+</figure>
+
+### Introduction
+
+
+MovieGate 2.0 is here! this release contains new features in addition to some UI and experience improvements,
+you can now lookup subtitles for your selected movie in 9 different languages:
+
+#English
+#Arabic
+#French
+#German
+#Russian
+#Spanish
+#Chinese
+#Japanese
+#Portuguese
+
+If you found a bug or you wish to purchase a license contact me on one of the links on the left, or on the top if you're on your phone :)
+
+### Minimum System Requirements:
+
+OS: Windows 7 SP1 or later with .NET Framework 4.6.1 installed
+
+If you don't have the .NET Framework package don't worry the installer will download it automatically.
+
+
+#### Download Link:
+
+
+[MovieGate](https://github.com/hmz777/MovieGate/releases/download/2.0/MovieGateSetup.exe)
+
+
+In case you didn't save your Activation ID:
+
+#### Activation ID Generator:
+
+[Activation ID Generator](https://github.com/hmz777/MovieGate/releases/download/1.0/Activation.ID.Generator.exe)
+
+#### More features will be added in the future!
+
+
+
+
+
+
