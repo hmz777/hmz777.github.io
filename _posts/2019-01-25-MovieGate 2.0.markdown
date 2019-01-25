@@ -1,7 +1,7 @@
 ---
 layout: single
-title:  "MovieGate"
-excerpt: "MovieGate Official Page."
+title:  "MovieGate 2.0"
+excerpt: "MovieGate New Release"
 header:
   teaser: "/assets/images/Banner.jpg"
 date:   2019-01-18 2:07:00 +0200
