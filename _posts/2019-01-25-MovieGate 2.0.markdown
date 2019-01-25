@@ -4,9 +4,9 @@ title:  "MovieGate 2.0"
 excerpt: "MovieGate New Release"
 header:
   teaser: "/assets/images/Banner.jpg"
-date:   2019-01-18 2:07:00 +0200
+date:   2019-01-25 2:07:00 +0200
 tags:
-  - MovieGate 
+  - MovieGate2.0 
   - Software
 ---
  
