@@ -3,7 +3,7 @@ layout: single
 title:  "MovieGate 2.0"
 excerpt: "MovieGate New Release"
 header:
-  teaser: "/assets/images/Banner20.jpg"
+  teaser: "/assets/images/banner20.jpg"
 date:   2019-01-25 2:07:00 +0200
 tags:
   - MovieGate2.0 
@@ -11,7 +11,7 @@ tags:
 ---
  
 <figure>
-	<a href=""><img src="/assets/images/Banner20.jpg"></a>
+	<a href=""><img src="/assets/images/banner20.jpg"></a>
 </figure>
 
 ## Introduction
