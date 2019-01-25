@@ -20,15 +20,15 @@ tags:
 MovieGate 2.0 is here! this release contains new features in addition to some UI and experience improvements,
 you can now lookup subtitles for your selected movie in 9 different languages:
 
-#English
-#Arabic
-#French
-#German
-#Russian
-#Spanish
-#Chinese
-#Japanese
-#Portuguese
+# English
+# Arabic
+# French
+# German
+# Russian
+# Spanish
+# Chinese
+# Japanese
+# Portuguese
 
 If you found a bug or you wish to purchase a license contact me on one of the links on the left, or on the top if you're on your phone :)
 
