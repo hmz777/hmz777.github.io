@@ -25,12 +25,12 @@ In addition it was my first experience with licensing and software protection, i
 
 MovieGate has an auto update feature, it will notify the user whenever a new version is live.
 
-If you found a bug or you wish to purchase a license contact me on one of the links on the left, or on the top if you're on your phone :)
+If you found a bug or you wish to purchase a license contact me on one of the links on the left, or on the top if you're on your phone. :)
 
 
-### Minimum System Requirements:
+## Minimum System Requirements:
 
-OS: Windows 7 SP1 or later with .NET Framework 4.6.1 installed
+OS: Windows 7 SP1 or later with .NET Framework 4.6.1 installed.
 
 If you don't have the .NET Framework package don't worry the installer will download it automatically.
 
