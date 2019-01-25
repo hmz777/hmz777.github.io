@@ -11,7 +11,7 @@ tags:
 ---
  
 <figure>
-	<a href=""><img src="/assets/images/Banner.jpg"></a>
+	<a href=""><img src="/assets/images/Banner20.jpg"></a>
 </figure>
 
 ## Introduction
