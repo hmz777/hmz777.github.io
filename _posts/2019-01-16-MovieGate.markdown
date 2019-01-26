@@ -53,7 +53,7 @@ Once your information has been checked you will receive your license immediately
 ## Download Link:
 
 
-[MovieGate](https://github.com/hmz777/MovieGate/releases/download/1.0/MovieGateSetup.exe)
+[MovieGate](https://github.com/hmz777/MovieGate/releases/download/1.0/MovieGateSetup.exe){: .btn .btn--info .btn--large}
 
 
 ## Activation ID Generator:
@@ -61,7 +61,7 @@ Once your information has been checked you will receive your license immediately
 In case you didn't save your Activation ID:
 
 
-[Activation ID Generator](https://github.com/hmz777/MovieGate/releases/download/1.0/Activation.ID.Generator.exe)
+[Activation ID Generator](https://github.com/hmz777/MovieGate/releases/download/1.0/Activation.ID.Generator.exe){: .btn .btn--info}
 
 
 #### More features will be added in the future!
