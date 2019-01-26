@@ -36,7 +36,7 @@ If you don't have the .NET Framework package don't worry the installer will down
 
 ## License Purchase:
 
-Lifetime license is only for 2$
+Lifetime license is only for $2
 
 If you would like to purchase this software send me an email in this form to start the license generation process:
 
