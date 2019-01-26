@@ -50,7 +50,7 @@ Once your information has been checked you will receive your license immediately
 
 #### Note: Payment information will be available soon.
 
-#### Download Link:
+## Download Link:
 
 
 [MovieGate](https://github.com/hmz777/MovieGate/releases/download/1.0/MovieGateSetup.exe)
@@ -58,7 +58,7 @@ Once your information has been checked you will receive your license immediately
 
 In case you didn't save your Activation ID:
 
-#### Activation ID Generator:
+## Activation ID Generator:
 
 [Activation ID Generator](https://github.com/hmz777/MovieGate/releases/download/1.0/Activation.ID.Generator.exe)
 
