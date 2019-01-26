@@ -66,6 +66,8 @@ In case you didn't save your Activation ID:
 
 [Activation ID Generator](https://github.com/hmz777/MovieGate/releases/download/1.0/Activation.ID.Generator.exe)
 
+{: .notice--info}
+
 #### More features will be added in the future.
 
 
