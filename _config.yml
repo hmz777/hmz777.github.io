@@ -121,6 +121,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/hamzi_alsheikh/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/hamzi-alsheikh-32b014170/"
 
 # Site Footer
 footer:
