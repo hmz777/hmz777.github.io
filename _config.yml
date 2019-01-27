@@ -106,9 +106,6 @@ author:
   location         : "Syria"
   email            : "hamzi_alsheikh@hotmail.com"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://www.hmz-software.me"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/Hamzi__Alsheikh"
@@ -124,6 +121,10 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/hamzi-alsheikh-32b014170/"
+      
+      #     - label: "Website"
+      # icon: "fas fa-fw fa-link"
+      # url: "https://www.hmz-software.me"
 
 # Site Footer
 footer:
