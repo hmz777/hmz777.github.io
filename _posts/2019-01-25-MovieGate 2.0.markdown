@@ -64,6 +64,11 @@ Once your information has been checked you will receive your license immediately
 	<a href="https://www.softpedia.com/get/Internet/Internet-Radio-TV-Player/MovieGate.shtml"><img src="/assets/images/sp100clean.jpg"></a>
 </figure>
 
+#### CNET:
+<figure>
+	<a href="https://download.cnet.com/MovieGate/3000-31714_4-77997735.html"><img src="/assets/images/cnet.jpg"></a>
+</figure>
+
 ## Download Link:
 
 
