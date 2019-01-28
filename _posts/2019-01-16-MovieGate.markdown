@@ -16,7 +16,7 @@ tags:
 </figure>
 
 ### There is a newer version available check it out here 
-[MovieGate 2.0]("https://www.hmz-software.me/MovieGate-2.0/"){: .btn .btn--info}
+[MovieGate 2.0](https://www.hmz-software.me/MovieGate-2.0/){: .btn .btn--info}
 
 ## Introduction
 
