@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "MovieGate 2.0"
+title:  "MovieGate 2.2"
 excerpt: "MovieGate New Release"
 header:
   teaser: "/assets/images/banner20.jpg"
