@@ -55,7 +55,7 @@ Once your information has been checked you will receive your license immediately
 ## Featured on:
 
 <figure class="third">
-	<a href="https://www.filecluster.com/MovieGate.html"><img src="/assets/images/filecluster.gif"></a>
+	<a href="https://www.filecluster.com/MovieGate.html"><img src="/assets/images/fileclusterlogo.gif"></a>
     <a href="https://www.softpedia.com/get/Internet/Internet-Radio-TV-Player/MovieGate.shtml"><img src="/assets/images/rba_sp_hd.png"></a>
     <a href="https://download.cnet.com/MovieGate/3000-31714_4-77997735.html"><img src="/assets/images/CNET-Logo-1.png"></a>
 </figure>
