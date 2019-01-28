@@ -34,13 +34,13 @@ MovieGate has an auto update feature, it will notify the user whenever a new ver
 If you found a bug or you wish to purchase a license contact me on one of the links on the left, or on the top if you're on your phone. :)
 
 
-## Minimum System Requirements:
+## Minimum System Requirements
 
 OS: Windows 7 SP1 or later with .NET Framework 4.6.1 installed.
 
 If you don't have the .NET Framework package don't worry the installer will download it automatically.
 
-## License Purchase:
+## License Purchase
 
 Lifetime license is only for $2
 
@@ -54,13 +54,13 @@ Once your information has been checked you will receive your license immediately
 
 #### Note: Payment information will be available soon.
 
-## Download Link:
+## Download Directly
 
 
 [MovieGate](https://github.com/hmz777/MovieGate/releases/download/1.0/MovieGateSetup.exe){: .btn .btn--info .btn--large}
 
 
-## Activation ID Generator:
+## Activation ID Generator
 
 In case you didn't save your Activation ID:
 

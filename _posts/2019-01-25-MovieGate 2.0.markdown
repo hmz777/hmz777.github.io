@@ -47,13 +47,13 @@ If you found a bug or you wish to purchase a license contact me on one of the li
 </figure>
 
 
-## Minimum System Requirements:
+## Minimum System Requirements
 
 OS: Windows 7 SP1 or later with .NET Framework 4.6.1 installed.
 
 If you don't have the .NET Framework package don't worry the installer will download it automatically.
 
-## License Purchase:
+## License Purchase
 
 Lifetime license is only for $2
 
@@ -67,7 +67,7 @@ Once your information has been checked you will receive your license immediately
 
 #### Note: Payment information will be available soon.
 
-## Featured on:
+## Featured on
 
 <figure class="third">
 	<a href="https://www.filecluster.com/MovieGate.html"><img src="/assets/images/logo_filecluster.jpg"></a>
@@ -75,13 +75,13 @@ Once your information has been checked you will receive your license immediately
     <a href="https://download.cnet.com/MovieGate/3000-31714_4-77997735.html"><img src="/assets/images/CNET-Logo-1.png"></a>
 </figure>
 
-## Download Directly:
+## Download Directly
 
 
 [MovieGate](https://github.com/hmz777/MovieGate/releases/download/2.2/MovieGateSetup.exe){: .btn .btn--info .btn--large}
 
 
-## Activation ID Generator:
+## Activation ID Generator
 
 In case you didn't save your Activation ID:
 
