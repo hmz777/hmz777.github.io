@@ -35,15 +35,15 @@ If you found a bug or you wish to purchase a license contact me on one of the li
 ## Screenshots
 
 <figure class="third">
-	<a href=""><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_RflMOl59eU.jpg"></a>
-    <a href=""><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_mOY09EnQ7Y.jpg"></a>
-    <a href=""><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_bbQgebDjiC.jpg"></a>
+	<a href="https://github.com/hmz777/MovieGate/raw/master/MovieGate_RflMOl59eU.jpg"><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_RflMOl59eU.jpg"></a>
+    <a href="https://github.com/hmz777/MovieGate/raw/master/MovieGate_mOY09EnQ7Y.jpg"><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_mOY09EnQ7Y.jpg"></a>
+    <a href="https://github.com/hmz777/MovieGate/raw/master/MovieGate_bbQgebDjiC.jpg"><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_bbQgebDjiC.jpg"></a>
 </figure>
 
 <figure class="third">
-	<a href=""><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_MIRXwVVH9k.jpg"></a>
-    <a href=""><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_Jb357TM0ah.jpg"></a>
-    <a href=""><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_u1Wd5YOW4g.jpg"></a>
+	<a href="https://github.com/hmz777/MovieGate/raw/master/MovieGate_MIRXwVVH9k.jpg"><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_MIRXwVVH9k.jpg"></a>
+    <a href="https://github.com/hmz777/MovieGate/raw/master/MovieGate_Jb357TM0ah.jpg"><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_Jb357TM0ah.jpg"></a>
+    <a href="https://github.com/hmz777/MovieGate/raw/master/MovieGate_u1Wd5YOW4g.jpg"><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_u1Wd5YOW4g.jpg"></a>
 </figure>
 
 
