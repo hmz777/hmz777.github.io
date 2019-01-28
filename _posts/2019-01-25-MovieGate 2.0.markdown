@@ -60,7 +60,7 @@ Once your information has been checked you will receive your license immediately
     <a href="https://download.cnet.com/MovieGate/3000-31714_4-77997735.html"><img src="/assets/images/CNET-Logo-1.png"></a>
 </figure>
 
-## Download Link:
+## Download Directly:
 
 
 [MovieGate](https://github.com/hmz777/MovieGate/releases/download/2.2/MovieGateSetup.exe){: .btn .btn--info .btn--large}
