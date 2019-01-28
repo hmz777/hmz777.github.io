@@ -54,19 +54,10 @@ Once your information has been checked you will receive your license immediately
 
 ## Featured on:
 
-#### FileCluster:
-<figure>
+<figure class="half">
 	<a href="https://www.filecluster.com/MovieGate.html"><img src="/assets/images/filecluster.gif"></a>
-</figure>
-
-#### Softpedia:
-<figure>
-	<a href="https://www.softpedia.com/get/Internet/Internet-Radio-TV-Player/MovieGate.shtml"><img src="/assets/images/sp100clean.jpg"></a>
-</figure>
-
-#### CNET:
-<figure>
-	<a href="https://download.cnet.com/MovieGate/3000-31714_4-77997735.html"><img src="/assets/images/cnet1.jpg"></a>
+    <a href="https://www.softpedia.com/get/Internet/Internet-Radio-TV-Player/MovieGate.shtml"><img src="/assets/images/rba_sp_hd.png"></a>
+    <a href="https://download.cnet.com/MovieGate/3000-31714_4-77997735.html"><img src="/assets/images/CNET-Logo-1.png">
 </figure>
 
 ## Download Link:
