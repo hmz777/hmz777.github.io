@@ -54,7 +54,7 @@ Once your information has been checked you will receive your license immediately
 
 ## Featured on:
 
-#### FileCluster
+#### FileCluster:
 <figure>
 	<a href="https://www.filecluster.com/MovieGate.html"><img src="/assets/images/filecluster.gif"></a>
 </figure>
