@@ -32,6 +32,21 @@ you can now lookup subtitles for your selected movie in 9 different languages:
 
 If you found a bug or you wish to purchase a license contact me on one of the links on the left, or on the top if you're on your phone. :)
 
+## Screenshots
+
+<figure class="third">
+	<a href=""><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_RflMOl59eU.jpg"></a>
+    <a href=""><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_mOY09EnQ7Y.jpg"></a>
+    <a href=""><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_bbQgebDjiC.jpg"></a>
+</figure>
+
+<figure class="third">
+	<a href=""><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_MIRXwVVH9k.jpg"></a>
+    <a href=""><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_Jb357TM0ah.jpg"></a>
+    <a href=""><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_u1Wd5YOW4g.jpg"></a>
+</figure>
+
+
 ## Minimum System Requirements:
 
 OS: Windows 7 SP1 or later with .NET Framework 4.6.1 installed.
