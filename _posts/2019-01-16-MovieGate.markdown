@@ -10,11 +10,12 @@ tags:
   - Software
 ---
  
-### There is a newer version available check it out here [MovieGate 2.0]("/MovieGate-2.0/"){: .btn .btn--info}
- 
+
 <figure>
 	<a href=""><img src="/assets/images/Banner.jpg"></a>
 </figure>
+
+### There is a newer version available check it out here [MovieGate 2.0]("/MovieGate-2.0/"){: .btn .btn--info}
 
 ## Introduction
 
