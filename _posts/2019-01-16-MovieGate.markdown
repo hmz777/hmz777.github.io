@@ -15,7 +15,7 @@ tags:
 	<a href=""><img src="/assets/images/Banner.jpg"></a>
 </figure>
 
-### There is a newer version available check it out here{: .notice--danger}
+### There is a newer version available check it out here {: .notice--danger}
 
 [MovieGate 2.0](https://www.hmz-software.me/MovieGate-2.0/){: .btn .btn--info}
 
