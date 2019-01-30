@@ -33,6 +33,7 @@ MovieGate has an auto update feature, it will notify the user whenever a new ver
 
 If you found a bug or you wish to purchase a license contact me on one of the links on the left, or on the top if you're on your phone. :)
 
+If you wish to purchase this software see the <p style="color:red">License Purchase</p> section below.
 
 ## Minimum System Requirements
 
@@ -52,7 +53,9 @@ If you would like to purchase this software send me an email in this form to sta
 
 Once your information has been checked you will receive your license immediately.
 
-### Payment Link: http://PayPal.me/MovieGateV2/2USD
+### Payment Link:
+
+[PayPal](http://PayPal.me/MovieGateV2/2USD){: .btn .btn--info}
 
 ## Download Directly
 
