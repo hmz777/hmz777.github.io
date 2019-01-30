@@ -33,7 +33,7 @@ MovieGate has an auto update feature, it will notify the user whenever a new ver
 
 If you found a bug or you wish to purchase a license contact me on one of the links on the left, or on the top if you're on your phone. :)
 
-If you wish to purchase this software see the License Purchase section below.
+#### If you wish to purchase this software see the License Purchase section below.
 
 ## Minimum System Requirements
 
