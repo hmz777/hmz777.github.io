@@ -3,6 +3,7 @@ layout: single
 title:  "MovieGate"
 excerpt: "MovieGate Official Page."
 header:
+  overlay_image: /assets/images/Banner.jpg
   teaser: "/assets/images/Banner.jpg"
 date:   2019-01-18 2:07:00 +0200
 tags:
@@ -33,7 +34,7 @@ MovieGate has an auto update feature, it will notify the user whenever a new ver
 
 If you found a bug or you wish to purchase a license contact me on one of the links on the left, or on the top if you're on your phone. :)
 
-If you wish to purchase this software see the <p style="color:red">License Purchase</p> section below.
+If you wish to purchase this software see the License Purchase section below.
 
 ## Minimum System Requirements
 
