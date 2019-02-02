@@ -1,34 +1,28 @@
 ---
 layout: single
-title:  "MovieGate 2.0"
+title:  "MovieGate 3.0"
 excerpt: "MovieGate New Release"
 header:
-  teaser: "/assets/images/banner20.jpg"
-date:   2019-01-25 2:07:00 +0200
+  teaser: "/assets/images/banner3.jpg"
+date:   2019-02-02 2:07:00 +0200
 tags:
-  - MovieGate2.0 
+  - MovieGate3.0 
   - Software
 ---
  
 <figure>
-	<a href=""><img src="/assets/images/banner20.jpg"></a>
+	<a href=""><img src="/assets/images/banner3.jpg"></a>
 </figure>
 
 ## Introduction
 
+MovieGate 3.0 is live!, this release contains some major changes:
 
-MovieGate 2.0 is here!, this release contains new features in addition to some UI and experience improvements,
-you can now lookup subtitles for your selected movie in 9 different languages:
+- Movie library, now you can use this section to save your favorite movies, or keep track of the movies you have watched, you can also use it to make a watch list because of the ability to download the selected movie along with its subtitles from the library without the need to search for it again!
 
-- English 
-- Arabic
-- French
-- German
-- Russian
-- Spanish
-- Chinese
-- Japanese
-- Portuguese
+- The flow of the application has changes a little, from now on all the qualities will be shown and you can decide which quality you want on the Download dialog.
+
+- Some minor UI fixes and experience improvements.
 
 If you found a bug contact me on one of the links on the left, or on the top if you're on your phone. :)
 
@@ -37,15 +31,15 @@ If you found a bug contact me on one of the links on the left, or on the top if 
 ## Screenshots
 
 <figure class="third">
-	<a href="https://github.com/hmz777/MovieGate/raw/master/MovieGate_RflMOl59eU.jpg"><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_RflMOl59eU.jpg"></a>
+	<a href="https://github.com/hmz777/MovieGate/raw/master/MovieGate_OxvqykJHTo.jpg"><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_OxvqykJHTo.jpg"></a>
     <a href="https://github.com/hmz777/MovieGate/raw/master/MovieGate_mOY09EnQ7Y.jpg"><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_mOY09EnQ7Y.jpg"></a>
-    <a href="https://github.com/hmz777/MovieGate/raw/master/MovieGate_bbQgebDjiC.jpg"><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_bbQgebDjiC.jpg"></a>
+    <a href="https://github.com/hmz777/MovieGate/raw/master/MovieGate_Dwreg81gZw.jpg"><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_Dwreg81gZw.jpg"></a>
 </figure>
 
 <figure class="third">
 	<a href="https://github.com/hmz777/MovieGate/raw/master/MovieGate_MIRXwVVH9k.jpg"><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_MIRXwVVH9k.jpg"></a>
-    <a href="https://github.com/hmz777/MovieGate/raw/master/MovieGate_Jb357TM0ah.jpg"><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_Jb357TM0ah.jpg"></a>
-    <a href="https://github.com/hmz777/MovieGate/raw/master/MovieGate_u1Wd5YOW4g.jpg"><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_u1Wd5YOW4g.jpg"></a>
+    <a href="https://github.com/hmz777/MovieGate/raw/master/MovieGate_msTdyhNraA.jpg"><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_msTdyhNraA.jpg"></a>
+    <a href="https://github.com/hmz777/MovieGate/raw/master/MovieGate_oehGUq9ywg.jpg"><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_oehGUq9ywg.jpg"></a>
 </figure>
 
 
@@ -82,7 +76,7 @@ Once your information has been checked you will receive your license immediately
 ## Download Directly
 
 
-[MovieGate](https://github.com/hmz777/MovieGate/releases/download/2.2/MovieGateSetup.exe){: .btn .btn--info .btn--large}
+[MovieGate](https://github.com/hmz777/MovieGate/releases/download/3.1/MovieGateSetup.exe){: .btn .btn--info .btn--large}
 
 
 ## Activation ID Generator
@@ -94,9 +88,4 @@ In case you didn't save your Activation ID:
 
 
 #### More features will be added in the future.
-
-
-
-
-
 
