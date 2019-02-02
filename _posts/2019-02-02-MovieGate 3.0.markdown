@@ -20,7 +20,7 @@ MovieGate 3.0 is live!, this release contains some major changes:
 
 - Movie library, now you can use this section to save your favorite movies, or keep track of the movies you have watched, you can also use it to make a watch list because of the ability to download the selected movie along with its subtitles directly from the library without the need to search for it again!
 
-- The flow of the application has changed a little, from now on all the qualities will be shown and you can decide which quality you want on the Download dialog.
+- The flow of the application has changed a little, from now on, all the qualities will be shown and you can decide which quality you want on the Download dialog.
 
 - Some minor UI fixes and experience improvements.
 
