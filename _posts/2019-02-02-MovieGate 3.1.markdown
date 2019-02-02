@@ -32,7 +32,7 @@ If you found a bug contact me on one of the links on the left, or on the top if 
 
 <figure class="third">
 	<a href="https://github.com/hmz777/MovieGate/raw/master/MovieGate_OxvqykJHTo.jpg"><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_OxvqykJHTo.jpg"></a>
-    <a href="https://github.com/hmz777/MovieGate/raw/master/MovieGate_mOY09EnQ7Y.jpg"><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_mOY09EnQ7Y.jpg"></a>
+    <a href="https://github.com/hmz777/MovieGate/raw/master/MovieGate_ORNiTxLZCq.jpg"><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_ORNiTxLZCq.jpg"></a>
     <a href="https://github.com/hmz777/MovieGate/raw/master/MovieGate_Dwreg81gZw.jpg"><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_Dwreg81gZw.jpg"></a>
 </figure>
 
