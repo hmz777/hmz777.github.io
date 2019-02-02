@@ -82,7 +82,7 @@ Once your information has been checked you will receive your license immediately
 ## Download Directly
 
 
-[MovieGate](https://github.com/hmz777/MovieGate/releases/download/2.2/MovieGateSetup.exe){: .btn .btn--info .btn--large}
+[MovieGate](https://github.com/hmz777/MovieGate/releases/download/3.0/MovieGateSetup.exe){: .btn .btn--info .btn--large}
 
 
 ## Activation ID Generator
