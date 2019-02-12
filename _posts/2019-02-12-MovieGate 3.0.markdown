@@ -4,7 +4,7 @@ title:  "MovieGate 3.0"
 excerpt: "MovieGate New Release"
 header:
   teaser: "/assets/images/banner3.jpg"
-date:   2019-02-02 2:07:00 +0200
+date:   2019-02-12 2:07:00 +0200
 tags:
   - MovieGate3.0 
   - Software
@@ -76,7 +76,7 @@ Once your information has been checked you will receive your license immediately
 ## Download Directly
 
 
-[MovieGate](https://github.com/hmz777/MovieGate/releases/download/3.1/MovieGateSetup.exe){: .btn .btn--info .btn--large}
+[MovieGate](https://github.com/hmz777/MovieGate/releases/download/3.2/MovieGateSetup.exe){: .btn .btn--info .btn--large}
 
 
 ## Activation ID Generator
