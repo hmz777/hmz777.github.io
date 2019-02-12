@@ -48,7 +48,6 @@ If you found a bug contact me on one of the links on the left, or on the top if 
     <a href="https://github.com/hmz777/MovieGate/raw/master/MovieGate_DBL5tBGqJp.jpg"><img src="https://github.com/hmz777/MovieGate/raw/master/MovieGate_DBL5tBGqJp.jpg"></a>
 </figure>
 
-
 ## Minimum System Requirements
 
 OS: Windows 7 SP1 or later with .NET Framework 4.6.1 installed.
