@@ -91,6 +91,15 @@ In case you didn't save your Activation ID:
 
 [Activation ID Generator](https://github.com/hmz777/MovieGate/releases/download/1.0/Activation.ID.Generator.exe){: .btn .btn--info}
 
+## Important Notice
+
+I noticed that a number of antivirus software are showing a warning or marking the setup installer as a suspecious file, its because i am using a custom installer that checks for updates before installing to make sure you have the latest version and here are reports from Virus Total and OPSWAT Metadefender:
+
+<figure class="half">
+	<a href="https://github.com/hmz777/MovieGate/raw/master/16Tg7pj8BL.jpg"><img src="https://github.com/hmz777/MovieGate/raw/master/16Tg7pj8BL.jpg"></a>
+    <a href="https://github.com/hmz777/MovieGate/raw/master/4WvkApCpE7.jpg"><img src="https://github.com/hmz777/MovieGate/raw/master/4WvkApCpE7.jpg"></a>
+</figure>
+
 
 #### More features will be added in the future.
 
