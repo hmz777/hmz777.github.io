@@ -1,0 +1,262 @@
+<XML_DIZ_INFO>
+  <MASTER_PAD_VERSION_INFO>
+    <MASTER_PAD_VERSION></MASTER_PAD_VERSION>
+    <MASTER_PAD_EDITOR></MASTER_PAD_EDITOR>
+    <MASTER_PAD_EDITOR_URL></MASTER_PAD_EDITOR_URL>
+  </MASTER_PAD_VERSION_INFO>
+  <RoboSoft>
+    <Company_UIN>CMP-4700E1E20713</Company_UIN>
+    <Product_UIN>APP-57001A804713</Product_UIN>
+    <Publish_on_CD>N</Publish_on_CD>
+    <NewsFeed_Search_String></NewsFeed_Search_String>
+    <Search_String>MovieGate</Search_String>
+    <Press_Release_Search_String></Press_Release_Search_String>
+    <Backlink></Backlink>
+    <Comments_For_Reviewer></Comments_For_Reviewer>
+    <Search_String_Unique>MovieGate</Search_String_Unique>
+    <Search_Engine_Search_String></Search_Engine_Search_String>
+    <Web_Directories_Search_String></Web_Directories_Search_String>
+    <Company_Description></Company_Description>
+  </RoboSoft>
+  <Company_Info>
+    <PublisherID>pid-37003912f613</PublisherID>
+    <BrandID>bid-4700e1e20713</BrandID>
+    <Company_Name>HMZ-Software</Company_Name>
+    <Country>Syrian Arab Rep</Country>
+    <State_Province>Tartus</State_Province>
+    <City_Town>Tartus</City_Town>
+    <Zip_Postal_Code>043</Zip_Postal_Code>
+    <Address_1>043</Address_1>
+    <Address_2></Address_2>
+    <Company_WebSite_URL>https://www.hmz-software.me/</Company_WebSite_URL>
+    <Contact_Info>
+      <Contact_First_Name>Hamzi</Contact_First_Name>
+      <Contact_Last_Name>Alsheikh</Contact_Last_Name>
+      <Contact_Email>hamzi1995@gmail.com</Contact_Email>
+      <Author_First_Name>Hamzi</Author_First_Name>
+      <Author_Last_Name>Alsheikh</Author_Last_Name>
+      <Author_Email>hamzi1995@gmail.com</Author_Email>
+      <Contact_Phone></Contact_Phone>
+    </Contact_Info>
+    <Support_Info>
+      <Sales_Email>hamzi1995@gmail.com</Sales_Email>
+      <Support_Email>hamzi1995@gmail.com</Support_Email>
+      <General_Email>hamzi1995@gmail.com</General_Email>
+      <Sales_Phone></Sales_Phone>
+      <Support_Phone></Support_Phone>
+      <General_Phone></General_Phone>
+      <Fax_Phone></Fax_Phone>
+    </Support_Info>
+    <GooglePlusPage></GooglePlusPage>
+    <LinkedinPage>https://linkedin.com/in/hamzi-alsheikh-32b014170/</LinkedinPage>
+    <TwitterCompanyPage>https://twitter.com/Hamzi__Alsheikh</TwitterCompanyPage>
+    <FacebookCompanyPage>https://www.facebook.com/Hamzi.Alsheikh</FacebookCompanyPage>
+  </Company_Info>
+  <Program_Info>
+    <AppID>app-57001a804713</AppID>
+    <Program_Name>MovieGate</Program_Name>
+    <Program_Version>3.2.0.0</Program_Version>
+    <Program_Release_Month>02</Program_Release_Month>
+    <Program_Release_Day>12</Program_Release_Day>
+    <Program_Release_Year>2019</Program_Release_Year>
+    <Program_Cost_Dollars>2</Program_Cost_Dollars>
+    <Program_Type>Shareware</Program_Type>
+    <Program_Category_Class>Audio &amp; Multimedia::Other</Program_Category_Class>
+    <Program_Specific_Category></Program_Specific_Category>
+    <Program_Categories>Movie browser,Movie downloader,Movies,Entertainment,Multimedia,Video</Program_Categories>
+    <Program_Release_Status>Major Update</Program_Release_Status>
+    <Program_Install_Support>Install and Uninstall</Program_Install_Support>
+    <Program_Target_Platform>Windows</Program_Target_Platform>
+    <Program_OS_Support>Win2000,WinXP,Win7 x32,Win7 x64,Windows 8,Windows 10,WinServer,WinOther,Windows2000,Windows2003,Windows Server 2000,Windows Server 2003,Windows Server 2008,Windows Server 2008r2,Windows Server 2012,Windows Tablet PC Edition 2005,Windows Media Center Edition 2005,WinVista,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate,WinVista x64,Windows Vista Home Basic x64,Windows Vista Home Premium x64,Windows Vista Business x64,Windows Vista Enterprise x64,Windows Vista Ultimate x64</Program_OS_Support>
+    <Program_Language>English</Program_Language>
+    <Program_Change_Info>Version 3.2</Program_Change_Info>
+    <Program_System_Requirements>Windows 7 SP1 with .NET Framework 4.6.1</Program_System_Requirements>
+    <Limitations>Stops working after 3 days</Limitations>
+    <Awards></Awards>
+    <File_Info>
+      <File_Size_Bytes>11693632</File_Size_Bytes>
+      <File_Size_K>11420</File_Size_K>
+      <File_Size_MB>11.1</File_Size_MB>
+    </File_Info>
+    <Expire_Info>
+      <Has_Expire_Info>Y</Has_Expire_Info>
+      <Expire_Count>3</Expire_Count>
+      <Expire_Based_On>Days</Expire_Based_On>
+      <Expire_Year></Expire_Year>
+      <Expire_Other_Info></Expire_Other_Info>
+      <Expire_Month></Expire_Month>
+      <Expire_Day></Expire_Day>
+    </Expire_Info>
+    <Includes_JAVA_VM></Includes_JAVA_VM>
+    <Includes_DirectX></Includes_DirectX>
+    <Includes_VB_Runtime></Includes_VB_Runtime>
+  </Program_Info>
+  <Web_Info>
+    <Application_URLs>
+      <Application_Info_URL>https://www.hmz-software.me/MovieGate-3.0/</Application_Info_URL>
+      <Application_Order_URL>https://www.hmz-software.me/MovieGate-3.0/</Application_Order_URL>
+      <Application_Screenshot_URL>https://github.com/hmz777/MovieGate/raw/master/MovieGate_i2C9iAyZTk.jpg</Application_Screenshot_URL>
+      <Application_Icon_URL>https://raw.githubusercontent.com/hmz777/MovieGate/master/Icon.ico</Application_Icon_URL>
+      <Application_XML_File_URL>https://www.hmz-software.me/MovieGate_pad1.xml</Application_XML_File_URL>
+    </Application_URLs>
+    <Download_URLs>
+      <Primary_Download_URL>https://github.com/hmz777/MovieGate/releases/download/3.2/MovieGateSetup.exe</Primary_Download_URL>
+      <Secondary_Download_URL></Secondary_Download_URL>
+      <Additional_Download_URL_1></Additional_Download_URL_1>
+      <Additional_Download_URL_2></Additional_Download_URL_2>
+    </Download_URLs>
+  </Web_Info>
+  <Program_Descriptions>
+    <English>
+      <Keywords>MovieDownloader,Entertainment,Movies,MovieInformation</Keywords>
+      <Char_Desc_45>MovieGate is a Movie Browser/Downloader</Char_Desc_45>
+      <Char_Desc_80>MovieGate is a Movie Browser/Downloader</Char_Desc_80>
+      <Char_Desc_250>MovieGate is a software that helps you browse movies, look up movie information, watch trailers, and even download along with movie subtitles.</Char_Desc_250>
+      <Char_Desc_450>MovieGate is a software that helps you browse movies, look up movie information, watch trailers, and even download along with movie subtitles.  It comes with a 3-day evaluation period, during this period you have unrestricted access to all the software aspects. This software has an auto-update feature and will notify the user whenever a new version is live.</Char_Desc_450>
+      <Char_Desc_2000>MovieGate is An extremely lightweight movie browser and downloader that comes in a minimalist UI and delivers extensive movie searching criteria
+
+You can browse movies, look up movie information, watch trailers, and even download along with movie subtitles to up to 9 different languages.
+
+English, Arabic, French, German, Russian, Spanish, Chinese, Japanese, Portuguese.
+
+This software has a 3-day evaluation period with unrestricted access, once the evaluation period ends you need to purchase a license from my website by contacting me on any of the links available.
+
+MovieGate has an auto-update feature and will notify the user whenever a new version is live.
+
+Important Notice: The license you will receive is Machine bound as it will work only on the machine you purchased on (See Activation section on the software main window for the steps).</Char_Desc_2000>
+    </English>
+  </Program_Descriptions>
+  <Permissions>
+    <Distribution_Permissions>The trial version of MySoftware can be freely distributed over the internet in an unchanged form</Distribution_Permissions>
+    <EULA>End-User License Agreement (EULA) of MovieGate
+
+This End-User License Agreement ('EULA') is a legal agreement between you and HMZ-Software
+
+This EULA agreement governs your acquisition and use of our MovieGate software ('Software') directly from HMZ-Software or indirectly through a HMZ-Software authorized reseller or distributor (a 'Reseller').
+Please read this EULA agreement carefully before completing the installation process and using the MovieGate software. It provides a license to use the MovieGate software and contains warranty information and liability disclaimers.
+If you register for a free trial of the MovieGate software, this EULA agreement will also govern that trial. By clicking 'accept' or installing and/or using the MovieGate software, you are confirming your acceptance of the Software and agreeing to become bound by the terms of this EULA agreement.
+If you are entering into this EULA agreement on behalf of a company or other legal entity, you represent that you have the authority to bind such entity and its affiliates to these terms and conditions. If you do not have such authority or if you do not agree with the terms and conditions of this EULA agreement, do not install or use the Software, and you must not accept this EULA agreement.
+This EULA agreement shall apply only to the Software supplied by HMZ-Software herewith regardless of whether other software is referred to or described herein. The terms also apply to any HMZ-Software updates, supplements, Internet-based services, and support services for the Software, unless other terms accompany those items on delivery. If so, those terms apply.
+
+License Grant
+
+HMZ-Software hereby grants you a personal, non-transferable, non-exclusive licence to use the MovieGate software on your devices in accordance with the terms of this EULA agreement.
+You are permitted to load the MovieGate software (for example a PC, laptop, mobile or tablet) under your control. You are responsible for ensuring your device meets the minimum requirements of the MovieGate software.
+You are not permitted to:
+&#x2981;	Edit, alter, modify, adapt, translate or otherwise change the whole or any part of the Software nor permit the whole or any part of the Software to be combined with or become incorporated in any other software, nor decompile, disassemble or reverse engineer the Software or attempt to do any such things.
+&#x2981;	Reproduce, copy, distribute, resell or otherwise use the Software for any commercial purpose.
+&#x2981;	Allow any third party to use the Software on behalf of or for the benefit of any third party.
+&#x2981;	Use the Software in any way which breaches any applicable local, national or international law.
+&#x2981;	Use the Software for any purpose that HMZ-Software considers is a breach of this EULA agreement.
+
+Intellectual Property and Ownership
+
+HMZ-Software shall at all times retain ownership of the Software as originally downloaded by you and all subsequent downloads of the Software by you. The Software (and the copyright, and other intellectual property rights of whatever nature in the Software, including any modifications made thereto) are and shall remain the property of HMZ-Software.
+HMZ-Software reserves the right to grant licences to use the Software to third parties.
+
+Termination
+
+This EULA agreement is effective from the date you first use the Software and shall continue until terminated. You may terminate it at any time upon written notice to HMZ-Software.
+It will also terminate immediately if you fail to comply with any term of this EULA agreement. Upon such termination, the licenses granted by this EULA agreement will immediately terminate and you agree to stop all access and use of the Software. The provisions that by their nature continue and survive will survive any termination of this EULA agreement.
+
+Governing Law
+
+This EULA agreement, and any dispute arising out of or in connection with this EULA agreement shall be governed by and construed in accordance with the laws of SY.</EULA>
+  </Permissions>
+  <Affiliates>
+    <Affiliates_Regsoft_Order_Page></Affiliates_Regsoft_Order_Page>
+    <Affiliates_Regnow_Order_Page></Affiliates_Regnow_Order_Page>
+    <Affiliates_Regsoft_Vendor_ID></Affiliates_Regsoft_Vendor_ID>
+    <Affiliates_Regnow_Vendor_ID></Affiliates_Regnow_Vendor_ID>
+    <Affiliates_Regsoft_Product_ID></Affiliates_Regsoft_Product_ID>
+    <Affiliates_Regnow_Product_ID></Affiliates_Regnow_Product_ID>
+    <Affiliates_FORM></Affiliates_FORM>
+    <Affiliates_FORM_VER></Affiliates_FORM_VER>
+    <Affiliates_VERSION></Affiliates_VERSION>
+    <Affiliates_URL></Affiliates_URL>
+    <Affiliates_Information_Page></Affiliates_Information_Page>
+    <Affiliates_Avangate_Order_Page></Affiliates_Avangate_Order_Page>
+    <Affiliates_Avangate_Vendor_ID></Affiliates_Avangate_Vendor_ID>
+    <Affiliates_Avangate_Product_ID></Affiliates_Avangate_Product_ID>
+    <Affiliates_Avangate_Maximum_Commission_Rate></Affiliates_Avangate_Maximum_Commission_Rate>
+    <Affiliates_BMTMicro_Order_Page></Affiliates_BMTMicro_Order_Page>
+    <Affiliates_BMTMicro_Vendor_ID></Affiliates_BMTMicro_Vendor_ID>
+    <Affiliates_BMTMicro_Product_ID></Affiliates_BMTMicro_Product_ID>
+    <Affiliates_BMTMicro_Maximum_Commission_Rate></Affiliates_BMTMicro_Maximum_Commission_Rate>
+    <Affiliates_eSellerate_Order_Page></Affiliates_eSellerate_Order_Page>
+    <Affiliates_eSellerate_Vendor_ID></Affiliates_eSellerate_Vendor_ID>
+    <Affiliates_eSellerate_Product_ID></Affiliates_eSellerate_Product_ID>
+    <Affiliates_eSellerate_Maximum_Commission_Rate></Affiliates_eSellerate_Maximum_Commission_Rate>
+    <Affiliates_Kagi_Order_Page></Affiliates_Kagi_Order_Page>
+    <Affiliates_Kagi_Vendor_ID></Affiliates_Kagi_Vendor_ID>
+    <Affiliates_Kagi_Product_ID></Affiliates_Kagi_Product_ID>
+    <Affiliates_Kagi_Maximum_Commission_Rate></Affiliates_Kagi_Maximum_Commission_Rate>
+    <Affiliates_Order1_Order_Page></Affiliates_Order1_Order_Page>
+    <Affiliates_Order1_Vendor_ID></Affiliates_Order1_Vendor_ID>
+    <Affiliates_Order1_Product_ID></Affiliates_Order1_Product_ID>
+    <Affiliates_Order1_Maximum_Commission_Rate></Affiliates_Order1_Maximum_Commission_Rate>
+    <Affiliates_Regnet_Order_Page></Affiliates_Regnet_Order_Page>
+    <Affiliates_Regnet_Vendor_ID></Affiliates_Regnet_Vendor_ID>
+    <Affiliates_Regnet_Product_ID></Affiliates_Regnet_Product_ID>
+    <Affiliates_Regnet_Maximum_Commission_Rate></Affiliates_Regnet_Maximum_Commission_Rate>
+    <Affiliates_Regnow_Maximum_Commission_Rate></Affiliates_Regnow_Maximum_Commission_Rate>
+    <Affiliates_Regsoft_Maximum_Commission_Rate></Affiliates_Regsoft_Maximum_Commission_Rate>
+    <Affiliates_ShareIt_Order_Page></Affiliates_ShareIt_Order_Page>
+    <Affiliates_ShareIt_Vendor_ID></Affiliates_ShareIt_Vendor_ID>
+    <Affiliates_ShareIt_Product_ID></Affiliates_ShareIt_Product_ID>
+    <Affiliates_ShareIt_Maximum_Commission_Rate></Affiliates_ShareIt_Maximum_Commission_Rate>
+    <Affiliates_SWReg_Order_Page></Affiliates_SWReg_Order_Page>
+    <Affiliates_SWReg_Vendor_ID></Affiliates_SWReg_Vendor_ID>
+    <Affiliates_SWReg_Product_ID></Affiliates_SWReg_Product_ID>
+    <Affiliates_SWReg_Maximum_Commission_Rate></Affiliates_SWReg_Maximum_Commission_Rate>
+  </Affiliates>
+  <NewsFeed>
+    <NewsFeed_FORM></NewsFeed_FORM>
+    <NewsFeed_VERSION></NewsFeed_VERSION>
+    <NewsFeed_URL></NewsFeed_URL>
+    <NewsFeed_DESCRIPTION></NewsFeed_DESCRIPTION>
+    <NewsFeed_Feed_URL></NewsFeed_Feed_URL>
+    <NewsFeed_Type></NewsFeed_Type>
+    <NewsFeed_Site_URL></NewsFeed_Site_URL>
+    <NewsFeed_Author_First_Name>Hamzi</NewsFeed_Author_First_Name>
+    <NewsFeed_Author_Last_Name>Alsheikh</NewsFeed_Author_Last_Name>
+    <NewsFeed_Author_Email>hamzi1995@gmail.com</NewsFeed_Author_Email>
+    <NewsFeed_Language></NewsFeed_Language>
+    <NewsFeed_Title></NewsFeed_Title>
+    <NewsFeed_Description_70></NewsFeed_Description_70>
+    <NewsFeed_Description_250></NewsFeed_Description_250>
+    <NewsFeed_Purpose></NewsFeed_Purpose>
+    <NewsFeed_Site_Name></NewsFeed_Site_Name>
+  </NewsFeed>
+  <Press_Release>
+    <Press_Release></Press_Release>
+    <Headline></Headline>
+    <Summary></Summary>
+    <Press_Release_Plain></Press_Release_Plain>
+  </Press_Release>
+  <Site>
+    <Site_FORM></Site_FORM>
+    <Site_VERSION></Site_VERSION>
+    <Site_DESCRIPTION></Site_DESCRIPTION>
+    <Site_Site_Title>HMZ-Software</Site_Site_Title>
+    <Site_Site_URL>http://www.hmz-software.me</Site_Site_URL>
+    <Site_Keywords>Software, Hamzi, Alsheikh, Movies, Gate, MovieGate, Download, Blog, Projects</Site_Keywords>
+    <Site_Description_100>Personal projects of Hamzi Alsheikh</Site_Description_100>
+    <Site_Description_250>Personal projects of Hamzi Alsheikh</Site_Description_250>
+    <Site_Description_450>Personal projects of Hamzi Alsheikh</Site_Description_450>
+    <Site_Contact_First_Name>Hamzi</Site_Contact_First_Name>
+    <Site_Contact_Last_Name>Alsheikh</Site_Contact_Last_Name>
+    <Site_Contact_Email>hamzi1995@gmail.com</Site_Contact_Email>
+  </Site>
+  <Dynamic_PAD>
+    <General>
+      <DP_Pad_Enabled>TRUE</DP_Pad_Enabled>
+      <DP_AtFormFill_Enabled>TRUE</DP_AtFormFill_Enabled>
+      <DP_Distributive_Enabled>TRUE</DP_Distributive_Enabled>
+      <DP_Script_Base_URL></DP_Script_Base_URL>
+      <DP_Pad_Mask>MovieGate_pad.xml</DP_Pad_Mask>
+      <DP_Distributive_Primary_URL>https://github.com/hmz777/MovieGate/releases/download/3.2/MovieGateSetup.exe</DP_Distributive_Primary_URL>
+      <DP_Distributive_Mask>MovieGateSetup.exe</DP_Distributive_Mask>
+    </General>
+  </Dynamic_PAD>
+</XML_DIZ_INFO>
