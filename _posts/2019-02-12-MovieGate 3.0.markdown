@@ -79,8 +79,6 @@ Once your information has been checked you will receive your license immediately
 </figure>
 <figure class="third">
 	<a href="https://moviegate.en.softonic.com/"><img src="/assets/images/softonic.jpg"></a>
-    <a href=""><img src=""></a>
-    <a href=""><img src=""></a>
 </figure>
 
 ## Download Directly
