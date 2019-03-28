@@ -79,7 +79,7 @@ Once your information has been checked you will receive your license immediately
 </figure>
 <figure class="third">
 	<a href="https://moviegate.en.softonic.com/"><img src="/assets/images/softonic.jpg"></a>
-    <a href="https://moviegate.software.informer.com/"><img src="/assets/images/si1.jpg"></a>
+    <a href="https://moviegate.software.informer.com/"><img src="/assets/images/si1.jpg"></a>{: .align-center}
 </figure>
 
 ## Download Directly
