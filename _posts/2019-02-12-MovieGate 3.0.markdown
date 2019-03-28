@@ -4,7 +4,7 @@ title:  "MovieGate 3.0"
 excerpt: "MovieGate New Release"
 header:
   teaser: "/assets/images/banner3.jpg"
-date:   2019-02-12 2:07:00 +0200
+date:   2019-03-28 2:07:00 +0200
 tags:
   - MovieGate3.0 
   - Software
@@ -79,6 +79,7 @@ Once your information has been checked you will receive your license immediately
 </figure>
 <figure class="third">
 	<a href="https://moviegate.en.softonic.com/"><img src="/assets/images/softonic.jpg"></a>
+    <a href="https://moviegate.software.informer.com/"><img src="/assets/images/si.jpg"></a>
 </figure>
 
 ## Download Directly
