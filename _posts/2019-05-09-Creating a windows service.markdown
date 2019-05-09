@@ -12,7 +12,7 @@ First, in the `Mynewservice.cs` file:
 
 - Services report their status to the `Service Control Manager` so that a user can tell whether a service is functioning correctly, basic services report the `Running` and the `Stopped` status, you can use other flags to report `Pending` status upon start or stop if your `OnStart()` or `OnStop()` methods are long-running methods.
 
-```css
+{% highlight javascript linenos %}
 public enum ServiceState
 {
     SERVICE_STOPPED = 0x00000001,
@@ -35,8 +35,7 @@ public struct ServiceStatus
     public int dwCheckPoint;
     public int dwWaitHint;
 };
-
-```
+{% endhighlight %}
 
 So the `OnStart()` method will look like this:
 
@@ -79,7 +78,7 @@ protected override void OnStart(string[] args)
 
 The `OnTimer()` event will look like this:
 
-```css
+{% highlight javascript linenos %}
 private void OnTimer(object sender, ElapsedEventArgs e)
 {
 
@@ -109,11 +108,11 @@ private void OnTimer(object sender, ElapsedEventArgs e)
     }
 
 }
-```
+{% endhighlight %}
 
 Finally the `OnStop()` method will look like this:
 
-```css
+{% highlight javascript linenos %}
 protected override void OnStop()
 {
     eventLog1.WriteEntry("Service is on stop!");
@@ -126,13 +125,13 @@ protected override void OnStop()
     serviceStatus.dwCurrentState = ServiceState.SERVICE_STOPPED;
     SetServiceStatus(this.ServiceHandle, ref serviceStatus);
 }
-```
+{% endhighlight %}
 
 ## Debuggin the service:
 
 Go to the `Program.cs` class and paste this code as your main method:
 
-```css
+{% highlight javascript linenos %}
 static void Main(string[] args)
 {
 
@@ -155,6 +154,6 @@ static void Main(string[] args)
 
 
 }
-```
+{% endhighlight %}
 
 This way the service can be run as a console application and can be installed as a windows service without reverting the changes that was made in the `Program.cs` class, just by switching between a `Console Application` and a `Windows Application` in the `Project Properties` > `Output`.
