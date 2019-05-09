@@ -41,96 +41,90 @@ public struct ServiceStatus
 So the `OnStart()` method will look like this:
 
 ```css
-
 protected override void OnStart(string[] args)
-        {
-            eventLog1.WriteEntry("Service is on start!");
+{
+    eventLog1.WriteEntry("Service is on start!");
 
 
-            // Update the service state to Start Pending.
-            ServiceStatus serviceStatus = new ServiceStatus();
-            serviceStatus.dwCurrentState = ServiceState.SERVICE_START_PENDING;
-            serviceStatus.dwWaitHint = 100000; //how much time the Service Control Manager will wait for the service to start.
-            SetServiceStatus(this.ServiceHandle, ref serviceStatus);
+    // Update the service state to Start Pending.
+    ServiceStatus serviceStatus = new ServiceStatus();
+    serviceStatus.dwCurrentState = ServiceState.SERVICE_START_PENDING;
+    serviceStatus.dwWaitHint = 100000; //how much time the Service Control Manager will wait for the service to start.
+    SetServiceStatus(this.ServiceHandle, ref serviceStatus);
 
-            using (StreamWriter fs = File.CreateText(@"D:\ServiceTests\log.txt"))
-            {
-                string[] tempFiles = Directory.GetFiles(@"D:\ServiceTests");
-                fs.WriteLine("::Beginning of log::\n");
-                fs.WriteLine($"There is a total of {tempFiles.Length} files in this directory.\n");
-            }
-
-
-            eventLog1.WriteEntry("Log created", EventLogEntryType.Information, eventId++);
-
-            Timer timer = new Timer();
-            timer.Interval = 5000; // 5 seconds
-            timer.Elapsed += new ElapsedEventHandler(this.OnTimer);
-            timer.Start();
+    using (StreamWriter fs = File.CreateText(@"D:\ServiceTests\log.txt"))
+    {
+        string[] tempFiles = Directory.GetFiles(@"D:\ServiceTests");
+        fs.WriteLine("::Beginning of log::\n");
+        fs.WriteLine($"There is a total of {tempFiles.Length} files in this directory.\n");
+    }
 
 
+    eventLog1.WriteEntry("Log created", EventLogEntryType.Information, eventId++);
 
-            // Update the service state to Running.
-            serviceStatus.dwCurrentState = ServiceState.SERVICE_RUNNING;
-            SetServiceStatus(this.ServiceHandle, ref serviceStatus);
+    Timer timer = new Timer();
+    timer.Interval = 5000; // 5 seconds
+    timer.Elapsed += new ElapsedEventHandler(this.OnTimer);
+    timer.Start();
 
-        }
 
+
+    // Update the service state to Running.
+    serviceStatus.dwCurrentState = ServiceState.SERVICE_RUNNING;
+    SetServiceStatus(this.ServiceHandle, ref serviceStatus);
+
+}
 ```
 
 The `OnTimer()` event will look like this:
 
 ```css
+private void OnTimer(object sender, ElapsedEventArgs e)
+{
 
-    private void OnTimer(object sender, ElapsedEventArgs e)
+    files = Directory.GetFiles(@"D:\ServiceTests");
+
+    if (files_current == null)
+    {
+        files_current = files; 
+    }
+    else
+    {
+        if (files.Except(files_current).Count() != 0)
         {
+            diff = files.Except(files_current).ToArray();
 
-            files = Directory.GetFiles(@"D:\ServiceTests");
-
-            if (files_current == null)
+            foreach (var VARIABLE in diff)
             {
-                files_current = files; 
+                File.AppendAllText(@"D:\ServiceTests\log.txt", $"New file added: \"{VARIABLE}\"\n");
+
             }
-            else
-            {
-                if (files.Except(files_current).Count() != 0)
-                {
-                    diff = files.Except(files_current).ToArray();
 
-                    foreach (var VARIABLE in diff)
-                    {
-                        File.AppendAllText(@"D:\ServiceTests\log.txt", $"New file added: \"{VARIABLE}\"\n");
+            files_current = files.Union(files_current).ToArray();
 
-                    }
-
-                    files_current = files.Union(files_current).ToArray();
-
-                    File.AppendAllText(@"D:\ServiceTests\log.txt", $"There is a total of {files_current.Length} files in this folder\n");
-
-                }
-            }
+            File.AppendAllText(@"D:\ServiceTests\log.txt", $"There is a total of {files_current.Length} files in this folder\n");
 
         }
+    }
 
+}
 ```
 
 Finally the `OnStop()` method will look like this:
 
 ```css
+protected override void OnStop()
+{
+    eventLog1.WriteEntry("Service is on stop!");
 
-  protected override void OnStop()
-        {
-            eventLog1.WriteEntry("Service is on stop!");
+    ServiceStatus serviceStatus = new ServiceStatus();
+    serviceStatus.dwCurrentState = ServiceState.SERVICE_STOP_PENDING;
+    serviceStatus.dwWaitHint = 100000; //how much time the Service Control Manager will wait for the service to stop.
+    SetServiceStatus(this.ServiceHandle, ref serviceStatus);
 
-            ServiceStatus serviceStatus = new ServiceStatus();
-            serviceStatus.dwCurrentState = ServiceState.SERVICE_STOP_PENDING;
-            serviceStatus.dwWaitHint = 100000; //how much time the Service Control Manager will wait for the service to stop.
-            SetServiceStatus(this.ServiceHandle, ref serviceStatus);
-
-            serviceStatus.dwCurrentState = ServiceState.SERVICE_STOPPED;
-            SetServiceStatus(this.ServiceHandle, ref serviceStatus);
-        }
-
+    serviceStatus.dwCurrentState = ServiceState.SERVICE_STOPPED;
+    SetServiceStatus(this.ServiceHandle, ref serviceStatus);
+}
 ```
 
 ## Debuggin the service:
@@ -138,30 +132,28 @@ Finally the `OnStop()` method will look like this:
 Go to the `Program.cs` class and paste this code as your main method:
 
 ```css
+static void Main(string[] args)
+{
 
-   static void Main(string[] args)
+
+    if (Environment.UserInteractive)
+    {
+        hmzservice service1 = new hmzservice(args);
+        service1.TestStartupAndStop(args);
+    }
+    else
+    {
+        ServiceBase[] ServicesToRun;
+        ServicesToRun = new ServiceBase[]
         {
-
-
-            if (Environment.UserInteractive)
-            {
-                hmzservice service1 = new hmzservice(args);
-                service1.TestStartupAndStop(args);
-            }
-            else
-            {
-                ServiceBase[] ServicesToRun;
-                ServicesToRun = new ServiceBase[]
-                {
-                    new hmzservice(args)
-                };
-                ServiceBase.Run(ServicesToRun);
-            }
+            new hmzservice(args)
+        };
+        ServiceBase.Run(ServicesToRun);
+    }
 
 
 
-        }
-
+}
 ```
 
 This way the service can be run as a console application and can be installed as a windows service without reverting the changes that was made in the `Program.cs` class, just by switching between a `Console Application` and a `Windows Application` in the `Project Properties` > `Output`.
