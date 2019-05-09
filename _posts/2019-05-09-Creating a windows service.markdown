@@ -8,6 +8,8 @@ tags:
   - Visual Studio
 ---
 
+## Writing the service:
+
 First, in the `Mynewservice.cs` file:
 
 - Services report their status to the `Service Control Manager` so that a user can tell whether a service is functioning correctly, basic services only report the `Running` and the `Stopped` status, you can use other flags to report `Pending` status upon start or stop if your `OnStart()` or `OnStop()` methods are long-running methods.
