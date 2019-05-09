@@ -43,9 +43,8 @@ So the `OnStart()` method will look like this:
 protected override void OnStart(string[] args)
 {
     eventLog1.WriteEntry("Service is on start!");
-
-
-    <!--- Update the service state to Start Pending. --->
+    
+    // Update the service state to Start Pending.
     
     ServiceStatus serviceStatus = new ServiceStatus();
     serviceStatus.dwCurrentState = ServiceState.SERVICE_START_PENDING;
@@ -59,7 +58,6 @@ protected override void OnStart(string[] args)
         fs.WriteLine($"There is a total of {tempFiles.Length} files in this directory.\n");
     }
 
-
     eventLog1.WriteEntry("Log created", EventLogEntryType.Information, eventId++);
 
     Timer timer = new Timer();
@@ -67,12 +65,9 @@ protected override void OnStart(string[] args)
     timer.Elapsed += new ElapsedEventHandler(this.OnTimer);
     timer.Start();
 
-
-
     // Update the service state to Running.
     serviceStatus.dwCurrentState = ServiceState.SERVICE_RUNNING;
     SetServiceStatus(this.ServiceHandle, ref serviceStatus);
-
 }
 {% endhighlight %}
 
@@ -81,7 +76,6 @@ The `OnTimer()` event will look like this:
 {% highlight javascript linenos %}
 private void OnTimer(object sender, ElapsedEventArgs e)
 {
-
     files = Directory.GetFiles(@"D:\ServiceTests");
 
     if (files_current == null)
@@ -97,16 +91,13 @@ private void OnTimer(object sender, ElapsedEventArgs e)
             foreach (var VARIABLE in diff)
             {
                 File.AppendAllText(@"D:\ServiceTests\log.txt", $"New file added: \"{VARIABLE}\"\n");
-
             }
 
             files_current = files.Union(files_current).ToArray();
 
             File.AppendAllText(@"D:\ServiceTests\log.txt", $"There is a total of {files_current.Length} files in this folder\n");
-
         }
     }
-
 }
 {% endhighlight %}
 
@@ -134,8 +125,6 @@ Go to the `Program.cs` class and paste this code as your main method:
 {% highlight javascript linenos %}
 static void Main(string[] args)
 {
-
-
     if (Environment.UserInteractive)
     {
         hmzservice service1 = new hmzservice(args);
@@ -150,9 +139,6 @@ static void Main(string[] args)
         };
         ServiceBase.Run(ServicesToRun);
     }
-
-
-
 }
 {% endhighlight %}
 
