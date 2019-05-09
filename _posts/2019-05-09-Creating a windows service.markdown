@@ -172,4 +172,4 @@ installutil MyService.exe
 installutil /u MyService.exe
 {% endhighlight %}
 
-Make sure to add installers to the service before building your project in order to be installed successfully by the `installutil.exe` utility.
+- Make sure to add installers to the service before building your project in order to be installed successfully by the `installutil.exe` utility and for logging setup the service should run under the `LocalSystem` account or it won't work and finally mark the `StartupType` as `Automatic` in order for the service to start automatically.
