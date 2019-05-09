@@ -46,7 +46,8 @@ protected override void OnStart(string[] args)
     eventLog1.WriteEntry("Service is on start!");
 
 
-    // Update the service state to Start Pending.
+    <!--- Update the service state to Start Pending. --->
+    
     ServiceStatus serviceStatus = new ServiceStatus();
     serviceStatus.dwCurrentState = ServiceState.SERVICE_START_PENDING;
     serviceStatus.dwWaitHint = 100000; //The time the SCM will wait for the service to start.
