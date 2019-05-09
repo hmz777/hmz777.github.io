@@ -40,7 +40,7 @@ public struct ServiceStatus
 
 So the `OnStart()` method will look like this:
 
-```
+```css
 
 protected override void OnStart(string[] args)
         {
@@ -80,7 +80,7 @@ protected override void OnStart(string[] args)
 
 The `OnTimer()` event will look like this:
 
-```
+```css
 
     private void OnTimer(object sender, ElapsedEventArgs e)
         {
@@ -116,7 +116,7 @@ The `OnTimer()` event will look like this:
 
 Finally the `OnStop()` method will look like this:
 
-```
+```css
 
   protected override void OnStop()
         {
@@ -137,7 +137,7 @@ Finally the `OnStop()` method will look like this:
 
 Go to the `Program.cs` class and paste this code as your main method:
 
-```
+```css
 
    static void Main(string[] args)
         {
