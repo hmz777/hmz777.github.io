@@ -40,7 +40,7 @@ public struct ServiceStatus
 
 So the `OnStart()` method will look like this:
 
-```css
+{% highlight scss %}
 protected override void OnStart(string[] args)
 {
     eventLog1.WriteEntry("Service is on start!");
@@ -75,7 +75,7 @@ protected override void OnStart(string[] args)
     SetServiceStatus(this.ServiceHandle, ref serviceStatus);
 
 }
-```
+{% endhighlight %}
 
 The `OnTimer()` event will look like this:
 
