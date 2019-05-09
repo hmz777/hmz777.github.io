@@ -8,3 +8,4 @@ tags:
   - Visual Studio
 ---
 
+In order to create a windows service you have to create a new project in Visual Studio
