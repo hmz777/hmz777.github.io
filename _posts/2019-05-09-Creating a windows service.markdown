@@ -156,3 +156,15 @@ static void Main(string[] args)
 {% endhighlight %}
 
 - This way the service can be run as a console application and can be installed as a windows service without reverting the changes that was made in the `Program.cs` class, just by switching between a `Console Application` and a `Windows Application` in the `Project Properties` > `Output`.
+
+## Installing the service:
+
+Open `Developer Command Prompt for VS`, navigate with `cd` command to the folder containing your service (Usually the debug folder inside the project folder) and type:
+
+{% highlight javascript linenos %}
+//To install the service
+installutil MyService.exe
+
+//To delete the service
+installutil /u MyService.exe
+{% endhighlight %}
