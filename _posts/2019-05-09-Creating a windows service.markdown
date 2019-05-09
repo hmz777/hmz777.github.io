@@ -135,7 +135,7 @@ Finally the `OnStop()` method will look like this:
 
 ## Debuggin the service:
 
-Go to the `program.cs` class and paste this code as your main method:
+Go to the `Program.cs` class and paste this code as your main method:
 
 ```
 
@@ -164,4 +164,4 @@ Go to the `program.cs` class and paste this code as your main method:
 
 ```
 
-This way the service can be run as a console application and can be installed as a windows service without reverting the changes that was made in the `program.cs` class, just by switching between a `Console application` and a `Windows application` in the `project properties` > `output`.
+This way the service can be run as a console application and can be installed as a windows service without reverting the changes that was made in the `Program.cs` class, just by switching between a `Console Application` and a `Windows Application` in the `Project Properties` > `Output`.
