@@ -74,7 +74,7 @@ protected override void OnStart(string[] args)
 The `OnTimer()` event will look like this:
 
 {% highlight javascript linenos %}
-  private void OnTimer(object sender, ElapsedEventArgs e)
+private void OnTimer(object sender, ElapsedEventArgs e)
 {
     files = Directory.GetFiles(@"D:\ServiceTests");
 
