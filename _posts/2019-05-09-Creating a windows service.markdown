@@ -74,13 +74,13 @@ protected override void OnStart(string[] args)
 The `OnTimer()` event will look like this:
 
 {% highlight javascript linenos %}
-private void OnTimer(object sender, ElapsedEventArgs e)
+  private void OnTimer(object sender, ElapsedEventArgs e)
 {
     files = Directory.GetFiles(@"D:\ServiceTests");
 
     if (files_current == null)
     {
-        files_current = files; 
+        files_current = files; //beware the garbage collector!
     }
     else
     {
@@ -94,6 +94,19 @@ private void OnTimer(object sender, ElapsedEventArgs e)
             }
 
             files_current = files.Union(files_current).ToArray();
+
+            File.AppendAllText(@"D:\ServiceTests\log.txt", $"There is a total of {files_current.Length} files in this folder\n");
+        }
+        else if (files_current.Except(files).Count() != 0)
+        {
+            diff = files_current.Except(files).ToArray();
+
+            foreach (var VARIABLE in diff)
+            {
+                File.AppendAllText(@"D:\ServiceTests\log.txt", $"File deleted or changed: \"{VARIABLE}\"\n");
+            }
+
+            files_current = files;
 
             File.AppendAllText(@"D:\ServiceTests\log.txt", $"There is a total of {files_current.Length} files in this folder\n");
         }
