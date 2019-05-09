@@ -145,6 +145,7 @@ static void Main(string[] args)
     }
     else
     {
+        //Here goes the main method for your service        
         ServiceBase[] ServicesToRun;
         ServicesToRun = new ServiceBase[]
         {
