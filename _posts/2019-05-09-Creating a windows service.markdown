@@ -49,7 +49,7 @@ protected override void OnStart(string[] args)
     
     ServiceStatus serviceStatus = new ServiceStatus();
     serviceStatus.dwCurrentState = ServiceState.SERVICE_START_PENDING;
-    serviceStatus.dwWaitHint = 100000; //The time the SCM will wait for the service to start.
+    serviceStatus.dwWaitHint = 100000; //SCM waiting time for the service to start.
     SetServiceStatus(this.ServiceHandle, ref serviceStatus);
 
     using (StreamWriter fs = File.CreateText(@"D:\ServiceTests\log.txt"))
@@ -119,7 +119,7 @@ protected override void OnStop()
 
     ServiceStatus serviceStatus = new ServiceStatus();
     serviceStatus.dwCurrentState = ServiceState.SERVICE_STOP_PENDING;
-    serviceStatus.dwWaitHint = 100000; //The time the SCM will wait for the service to stop.
+    serviceStatus.dwWaitHint = 100000; //SCM waiting time for the service to stop.
     SetServiceStatus(this.ServiceHandle, ref serviceStatus);
 
     serviceStatus.dwCurrentState = ServiceState.SERVICE_STOPPED;
