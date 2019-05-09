@@ -80,7 +80,7 @@ The `OnTimer()` event will look like this:
 
     if (files_current == null)
     {
-        files_current = files; //beware the garbage collector!
+        files_current = files;
     }
     else
     {
@@ -155,4 +155,4 @@ static void Main(string[] args)
 }
 {% endhighlight %}
 
-This way the service can be run as a console application and can be installed as a windows service without reverting the changes that was made in the `Program.cs` class, just by switching between a `Console Application` and a `Windows Application` in the `Project Properties` > `Output`.
+- This way the service can be run as a console application and can be installed as a windows service without reverting the changes that was made in the `Program.cs` class, just by switching between a `Console Application` and a `Windows Application` in the `Project Properties` > `Output`.
