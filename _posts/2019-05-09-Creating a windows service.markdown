@@ -185,4 +185,4 @@ installutil /u MyService.exe
 
 - Make sure to add installers to the service before building your project in order to be installed successfully by the `installutil.exe` utility and for logging setup the service should run under the `LocalSystem` account or it won't work and finally mark the `StartupType` as `Automatic` in order for the service to start automatically.
 
-### For more information on how to setup logging see the Microsoft documentation of Windows Services: [Windows Services Docs]("https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer")
+### For more information on how to setup logging see the Microsoft documentation of Windows Services: [Windows Services Docs](https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer)
