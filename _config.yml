@@ -23,7 +23,7 @@ masthead_title           : "HMZ-Software"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "false" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : "hmz-software" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
