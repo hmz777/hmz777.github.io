@@ -158,6 +158,17 @@ static void Main(string[] args)
 }
 {% endhighlight %}
 
+Then in your service class add this method:
+
+{% highlight javascript linenos %}
+internal void TestStartupAndStop(string[] args)  
+    {  
+        this.OnStart(args);  
+        Console.ReadLine();  
+        this.OnStop();  
+    } 
+{% endhighlight %}
+
 - This way the service can be run as a console application and can be installed as a windows service without reverting the changes that was made in the `Program.cs` class, just by switching between a `Console Application` and a `Windows Application` in the `Project Properties` > `Output`.
 
 ## Installing the service:
@@ -173,3 +184,5 @@ installutil /u MyService.exe
 {% endhighlight %}
 
 - Make sure to add installers to the service before building your project in order to be installed successfully by the `installutil.exe` utility and for logging setup the service should run under the `LocalSystem` account or it won't work and finally mark the `StartupType` as `Automatic` in order for the service to start automatically.
+
+### For more information on how to setup logging see the Microsoft documentation of Windows Services: [Windows Services Docs]("https://docs.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer")
