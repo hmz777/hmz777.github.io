@@ -15,6 +15,9 @@ First, in the `Mynewservice.cs` file:
 - Services report their status to the `Service Control Manager` so that a user can tell whether a service is functioning correctly, basic services only report the `Running` and the `Stopped` status, you can use other flags to report `Pending` status upon start or stop if your `OnStart()` or `OnStop()` methods are long-running methods.
 
 {% highlight javascript linenos %}
+[DllImport("advapi32.dll", SetLastError = true)]
+private static extern bool SetServiceStatus(System.IntPtr handle, ref ServiceStatus serviceStatus);
+
 public enum ServiceState
 {
     SERVICE_STOPPED = 0x00000001,
