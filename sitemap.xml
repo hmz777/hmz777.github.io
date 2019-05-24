@@ -8,32 +8,42 @@
 
 <url>
   <loc>https://www.hmz-software.me/</loc>
-  <lastmod>2019-01-25T21:34:57+00:00</lastmod>
+  <lastmod>2019-05-24T11:43:22+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.hmz-software.me/Posts/</loc>
-  <lastmod>2019-01-25T21:34:57+00:00</lastmod>
+  <lastmod>2019-05-24T11:43:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.hmz-software.me/Tags/</loc>
-  <lastmod>2019-01-25T21:34:57+00:00</lastmod>
+  <lastmod>2019-05-24T11:43:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.hmz-software.me/About/</loc>
-  <lastmod>2019-01-25T21:34:57+00:00</lastmod>
+  <lastmod>2019-05-24T11:43:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.hmz-software.me/Creating-a-windows-service/</loc>
+  <lastmod>2019-05-24T11:43:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.hmz-software.me/MovieGate-3.0/</loc>
+  <lastmod>2019-05-24T11:43:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.hmz-software.me/MovieGate-2.0/</loc>
-  <lastmod>2019-01-25T21:34:57+00:00</lastmod>
+  <lastmod>2019-05-24T11:43:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.hmz-software.me/MovieGate/</loc>
-  <lastmod>2019-01-25T21:34:57+00:00</lastmod>
+  <lastmod>2019-05-24T11:43:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
