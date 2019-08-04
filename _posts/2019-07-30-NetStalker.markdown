@@ -4,7 +4,7 @@ title:  "NetStalker"
 excerpt: "NetStalker Initial release"
 header:
   teaser: "https://i.imgur.com/4NdcRHF.png"
-date:   2019-07-30 2:07:00 +0200
+date:   2019-08-04 2:07:00 +0200
 tags:
   - NetStalker 
   - Software
@@ -29,6 +29,9 @@ A network tool to control the bandwidth over your local network, it can block in
 - Get network card vendor for every device using MacVendors API for better device identification.
 - Can be locked with a password.
 - Can be minimized to tray if the option is chosen.
+- Integration with windows 10 notification system (works from build 17763).
+- When minimized it notifies the user of newly discovered devices using Windows 10 notification system with the ability to choose from multiple options on what actions to take.
+- Track disconnected devices with a timeout for each device. 
 
 # Binaries
 
