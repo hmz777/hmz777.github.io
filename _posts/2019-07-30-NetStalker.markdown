@@ -4,7 +4,7 @@ title:  "NetStalker"
 excerpt: "NetStalker Initial release"
 header:
   teaser: "https://i.imgur.com/tasMixk.png"
-date:   2019-08-09 2:07:00 +0200
+date:   2019-08-16 2:07:00 +0200
 tags:
   - NetStalker 
   - Software
@@ -35,7 +35,7 @@ A network tool to control the bandwidth over your local network, it can block in
 
 # Binaries
 
-- NetStalker [Setup package](https://github.com/hmz777/NetStalker/releases/download/1.4/NS.exe)
+- NetStalker [Setup package](https://github.com/hmz777/NetStalker/releases/download/1.5/NS.exe)
 
 # Pictures:
 
