@@ -2,6 +2,9 @@
 title: "About Me"
 permalink: /About/
 date: 2019-01-17T00:00:00+00:00
+html_document:
+css: https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css
+self_contained: no
 ---
 
 >A Mechatronics Engineer/Software Developer from Tartus, Syria, i'm passionate about anything computer related,
@@ -10,9 +13,6 @@ technologies, looking for my next project, my skills are mainly focused on .NET 
 Working with ASP.NET Core MVC, TypeScript, JavaScript, jQuery, Angular, Entity Framework Core and SQL Server.
 
 #### If you wish to contact me, checkout the links on the left, or on the top if you're on your phone :)
-
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 <div class="container">
     <div class="row">
