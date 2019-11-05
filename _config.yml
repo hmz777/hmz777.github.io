@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 remote_theme             : "mmistakes/minimal-mistakes@4.17.2"
-minimal_mistakes_skin    : "neon" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -149,7 +149,7 @@ footer:
       url: "https://instagram.com/hamzi_alsheikh/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/hamzi-alsheikh-32b014170/"
+      url: "https://www.linkedin.com/in/hamzialsheikh/"
 
 
 # Reading Files
