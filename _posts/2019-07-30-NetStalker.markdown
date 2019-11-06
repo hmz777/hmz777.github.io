@@ -40,7 +40,9 @@ A network tool to control the bandwidth over your local network, it can block in
 # Pictures:
 
 ### Dark Mode:
-![MainDark](https://i.imgur.com/CpnUqdC.jpg)
+<figure>
+<a href="https://i.imgur.com/CpnUqdC.jpg"></a>
+</figure>
 
 ### Light Mode:
 ![MainLight](https://i.imgur.com/HOQl1kI.jpg)
