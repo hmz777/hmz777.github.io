@@ -40,24 +40,22 @@ A network tool to control the bandwidth over your local network, it can block in
 # Pictures:
 
 ### Dark Mode:
-<figure>
-<a href="https://i.imgur.com/CpnUqdC.jpg"><img src="https://i.imgur.com/CpnUqdC.jpg"></a>
-</figure>
+<figure><a href="https://i.imgur.com/CpnUqdC.jpg"><img src="https://i.imgur.com/CpnUqdC.jpg"></a></figure>
 
 ### Light Mode:
-![MainLight](https://i.imgur.com/HOQl1kI.jpg)
+<figure><a href="https://i.imgur.com/HOQl1kI.jpg"><img src="https://i.imgur.com/HOQl1kI.jpg"></a></figure>
 
 ### Packet Sniffer Dark:
-![SnifferDark](https://i.imgur.com/6C5qkRu.jpg)
+<figure><a href="https://i.imgur.com/6C5qkRu.jpg"><img src="https://i.imgur.com/6C5qkRu.jpg"></a></figure>
 
 ### Packet Sniffer Light:
-![SnifferLight](https://i.imgur.com/RtwLAst.jpg)
+<figure><a href="https://i.imgur.com/RtwLAst.jpg"><img src="https://i.imgur.com/RtwLAst.jpg"></a></figure>
 
 ### Speed Limiter:
-![SpeedLimiter](https://i.imgur.com/bJdjiMX.jpg)
+<figure><a href="https://i.imgur.com/bJdjiMX.jpg"><img src="https://i.imgur.com/bJdjiMX.jpg"></a></figure>
 
 ### Expanded Packet Viewer:
-![ExpandedPacketViewer](https://i.imgur.com/dzFAQjV.jpg)
+<figure><a href="https://i.imgur.com/dzFAQjV.jpg"><img src="https://i.imgur.com/dzFAQjV.jpg"></a></figure>
 
 # Additional Information
 
