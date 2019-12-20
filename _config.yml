@@ -18,7 +18,7 @@ url                      : "www.hmz-software.me"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "hmz777/hmz777.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "assets/images/img_mouseover3.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "HMZ-Software"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
