@@ -3,20 +3,36 @@
    ========================================================================== */
 
 /* Colors */
-$background-color: #252a34 !default;
-$text-color: #eaeaea !default;
-$primary-color: #00adb5 !default;
+$background-color: #F4F4F4 !default;
+$navbar-color: black !default;
+$navbar-text: white !default;
+$navbar-text-hover: #8b8687 !default;
+$text-color: #262626 !default;
+$primary-color: white !default;
 $border-color: mix(#fff, $background-color, 20%) !default;
+$avatar-border: 2px solid maroon !default;
+$collapse-menu-back-color : black !default;
+$collapse-menu-back-color-hover : gray !default;
+$collapse-menu-text-color-hover: white !default;
+$collapse-menu-text-color: white !default;
+$collapse-menu-border-bottom: 2px solid black !default;
 $code-background-color: mix(#000, $background-color, 15%) !default;
 $code-background-color-dark: mix(#000, $background-color, 20%) !default;
 $form-background-color: mix(#000, $background-color, 15%) !default;
-$footer-background-color: mix(#000, $background-color, 30%) !default;
+//$footer-background-color: mix(#000, $background-color, 30%) !default;
+$footer-background-color: #000000 !default;
+$footer-link-color: white !default;
+$footer-link-color-hover: #AA5555 !default;
+$footer-text: white !default;
 $link-color: mix($primary-color, $text-color, 40%) !default;
-$link-color-hover: mix(#fff, $link-color, 25%) !default;
+$link-color-hover: black !default;
 $link-color-visited: mix(#000, $link-color, 25%) !default;
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
 $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
+$pagination-pager-hover-color : maroon !default;
+$author-links-color-hover: maroon !default;
+$blockquote-color: maroon;
 
 .author__urls.social-icons .svg-inline--fa,
 .page__footer-follow .social-icons .svg-inline--fa {

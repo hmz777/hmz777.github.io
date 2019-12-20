@@ -133,7 +133,7 @@
     border-radius: $border-radius;
 
     &:hover {
-      @include yiq-contrasted($muted-text-color);
+      @include yiq-contrasted($pagination-pager-hover-color);
     }
 
     &:first-child {
@@ -155,10 +155,10 @@
   }
 }
 
-.page__content + .pagination,
-.page__meta + .pagination,
-.page__share + .pagination,
-.page__comments + .pagination {
+.page__content+.pagination,
+.page__meta+.pagination,
+.page__share+.pagination,
+.page__comments+.pagination {
   margin-top: 2em;
   padding-top: 2em;
   border-top: 1px solid $border-color;
@@ -247,7 +247,7 @@
       &:hover:before {
         -webkit-transform: scaleX(1);
         -ms-transform: scaleX(1);
-        transform: scaleX(1); // reveal
+        transform: scaleX(1); // reveal     
       }
     }
   }
@@ -309,6 +309,17 @@
     li {
       display: block;
       border-bottom: 1px solid $border-color;
+      background-color: $collapse-menu-back-color;
+
+      a {
+        color: $collapse-menu-text-color !important;
+        border-bottom: $collapse-menu-border-bottom;
+
+        &:hover {
+          background-color: $collapse-menu-back-color-hover;
+          color: $collapse-menu-text-color-hover !important;
+        }
+      }
 
       &:last-child {
         border-bottom: none;
@@ -387,7 +398,7 @@
     }
 
     /* selected*/
-    input:checked + label {
+    input:checked+label {
       color: white;
       background-color: mix(white, #000, 20%);
 
@@ -404,7 +415,7 @@
       transform: rotate(90deg);
     }
 
-    input:checked + label:hover:after {
+    input:checked+label:hover:after {
       -webkit-transform: rotate(0);
       -ms-transform: rotate(0);
       transform: rotate(0);
@@ -460,10 +471,11 @@
 }
 
 @include breakpoint(max-width $large - 1px) {
-  .nav__list input:checked ~ .nav__items {
+  .nav__list input:checked~.nav__items {
     -webkit-transition: 0.5s ease-in-out;
     transition: 0.5s ease-in-out;
-    max-height: 9999px; /* exaggerate max-height to accommodate tall lists*/
+    max-height: 9999px;
+    /* exaggerate max-height to accommodate tall lists*/
     overflow: visible;
     opacity: 1;
     margin-top: 1em;
@@ -543,24 +555,24 @@
     }
   }
 
-  li ul > li a {
+  li ul>li a {
     padding-left: 1.25rem;
     font-weight: normal;
   }
 
-  li ul li ul > li a {
+  li ul li ul>li a {
     padding-left: 1.75rem;
   }
 
-  li ul li ul li ul > li a {
+  li ul li ul li ul>li a {
     padding-left: 2.25rem;
   }
 
-  li ul li ul li ul li ul > li a {
+  li ul li ul li ul li ul>li a {
     padding-left: 2.75rem;
   }
 
-  li ul li ul li ul li ul li ul > li a {
+  li ul li ul li ul li ul li ul>li a {
     padding-left: 3.25rem
   }
 }

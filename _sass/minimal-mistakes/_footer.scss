@@ -50,9 +50,13 @@
 .page__footer-copyright {
   font-family: $global-font-family;
   font-size: $type-size-7;
+  color: $footer-text;
 }
 
 .page__footer-follow {
+
+  color: $footer-text;
+
   ul {
     margin: 0;
     padding: 0;
@@ -68,7 +72,7 @@
     text-transform: uppercase;
   }
 
-  li + li:before {
+  li+li:before {
     content: "";
     padding-right: 5px;
   }
@@ -76,6 +80,11 @@
   a {
     padding-right: 10px;
     font-weight: bold;
+    color: $footer-link-color;
+  }
+
+  a:hover {
+    color: $footer-link-color-hover;
   }
 
   .social-icons {

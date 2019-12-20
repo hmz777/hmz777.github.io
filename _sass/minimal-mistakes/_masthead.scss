@@ -10,6 +10,7 @@
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
+  background-color: $navbar-color;
 
   &__inner-wrap {
     @include clearfix;
@@ -31,6 +32,7 @@
 
     nav {
       z-index: 10;
+      background-color: $navbar-color;
     }
 
     a {
@@ -90,4 +92,19 @@
     padding-right: 2em;
     font-weight: 700;
   }
+
+}
+
+.masthead__menu-item a {
+  color: $navbar-text !important;
+  text-decoration: none !important;
+}
+
+.masthead .site-title {
+  color: $navbar-text !important;
+  text-decoration: none !important;
+}
+
+.masthead .site-title:hover {
+  color: $navbar-text-hover !important;
 }
