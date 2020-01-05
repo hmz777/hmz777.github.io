@@ -1,2 +1,2 @@
-# hmz777.github.io
+# HMZ-Software
 My Personal Website
