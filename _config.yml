@@ -5,67 +5,74 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+# Theme Settings
+#
+# Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
+
+# theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes@4.17.2"
-minimal_mistakes_skin    : "dark" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "HMZ-Software"
 title_separator          : "-"
+subtitle                 : "Hamzi Alsheikh"
 name                     : "Hamzi Alsheikh"
-description              : "HMZ-Software Page"
-url                      : "www.hmz-software.cf"
+description              : "A Portfolio + blog where i document and share my ideas."
+url                      : "https://www.hmz-software.cf"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "hmz777/hmz777.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "assets/images/logo.png"
 masthead_title           : "HMZ-Software"
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true
 words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : "https-www-hmz-software-cf" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "https-www-hmz-software-cf"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
-     #https://developers.facebook.com/docs/plugins/comments
-    appid                : 594507284319689
-    num_posts            : 5 
-    colorscheme          : "dark" # "light" (default), "dark"
+    # https://developers.facebook.com/docs/plugins/comments
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : "github-dark" # "github-light" (default), "github-dark"
+    theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
 staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "master"
-  commitMessage          : "New comment by {fields.name}"
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "/_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
+  allowedFields          : # ['name', 'email', 'url', 'message']
+  branch                 : # "master"
+  commitMessage          : # "New comment by {fields.name}"
+  filename               : # comment-{@timestamp}
+  format                 : # "yml"
+  moderation             : # true
+  path                   : # "/_data/comments/{options.slug}" (default)
+  requiredFields         : # ['name', 'email', 'message']
   transforms:
-    email                : "md5"
+    email                : # "md5"
   generatedFields:
     date:
-      type               : "date"
+      type               : # "date"
       options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
   endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
 reCaptcha:
-  siteKey                : "6Lf_Vo0UAAAAAP3pOKd7JIJpWOdwjjbnRdMjjN5o"
-  secret                 : "nHpUUO5zssmfvgZiCjMgd208grKRr4EoxZcpXMRoDnbaxGgF2Zbs8TXAH10Uu8V4/zec1KDhXvsYxeznJ1iwE2F3/gVfGyLD8DH6Anwjs1UStih7eKtyBQAc8z484VQ2lHM9j4mA95NG0Qti02gTw2PdRbqzugwKuuVpuXIgh8E="
+  siteKey                :
+  secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : true # false (default)
-search_full_content      : false # false (default)
-search_provider          : "lunr" # lunr (default), algolia, google
+search                   : true # true, false (default)
+search_full_content      : false # true, false (default)
+search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : false # true (default), false
+  powered_by             : # true (default), false
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
@@ -77,38 +84,48 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : "Hamzi_Alsheikh"
+  username               : "Hamzi__Alsheikh"
 facebook:
-  username               :
+  username               : "Hamzi.Alsheikh"
   app_id                 :
   publisher              :
-og_image                 : "/assets/images/Personal_Picture_Hamzi Alsheikh" # Open Graph/Twitter default site image
+og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-
+  name                   : "Hamzi Alsheikh" # If the user or organization name differs from the site's name
+  links: 
+     - "https://github.com/hmz777"
+     - "https://www.linkedin.com/in/hamzialsheikh/"
+     - "https://www.facebook.com/Hamzi.Alsheikh"
+     - "https://instagram.com/hamzi_alsheikh/"
+     - "https://twitter.com/Hamzi__Alsheikh"
 # Analytics
 analytics:
   provider               : "google-gtag" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          : "UA-133192226-1"
-    anonymize_ip         : false #default
+    anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
   name             : "Hamzi Alsheikh"
-  avatar           : "/assets/images/Personal_Picture_Hamzi Alsheikh.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/Personal_Picture_Hamzi Alsheikh.jpg"
   bio              : "*Mechatronics Engineer*<br/>*Software Developer*"
   location         : "Syria"
   email            : "hamzi_alsheikh@hotmail.com"
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: mailto:hamzi_alsheikh@hotmail.com
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/Hamzi__Alsheikh"
+      url:  "https://twitter.com/Hamzi__Alsheikh"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/Hamzi.Alsheikh"
@@ -121,10 +138,6 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/hamzialsheikh/"
-      
-      #     - label: "Website"
-      # icon: "fas fa-fw fa-link"
-      # url: "https://www.hmz-software.me"
 
 # Site Footer
 footer:
@@ -177,6 +190,7 @@ exclude:
   - log
   - node_modules
   - package.json
+  - package-lock.json
   - Rakefile
   - README
   - tmp
@@ -188,10 +202,6 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-# Liquid
-strict_front_matter: true
-liquid:
-  error_mode: strict
 
 # Conversion
 markdown: kramdown
@@ -216,7 +226,7 @@ kramdown:
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
 # Outputting
@@ -232,7 +242,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
   - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
@@ -241,7 +250,6 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
   - jekyll-include-cache
 
 
@@ -253,14 +261,14 @@ whitelist:
 #  - Archive page should exist at path when using Liquid method or you can
 #    expect broken links (especially with breadcrumbs enabled)
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
+#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
-  path: /Categories/
+  path: /categories/
 tag_archive:
   type: liquid
-  path: /Tags/
+  path: /tags/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -275,25 +283,12 @@ tag_archive:
 
 
 # HTML Compression
-# - http://jch.penibelst.de/
+# - https://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
     envs: development
-    
 
-# Collections
-collections:
-  recipes:
-    output: true
-    permalink: /:collection/:path/
-  pets:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-    
 
 # Defaults
 defaults:
@@ -303,15 +298,17 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       read_time: true
       comments: true
       share: true
       related: true
-  # _pages
+      classes: wide
+      # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
+      classes: wide
