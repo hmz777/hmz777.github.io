@@ -14,7 +14,7 @@ title                    : "HMZ-Software"
 title_separator          : "-"
 name                     : "Hamzi Alsheikh"
 description              : "HMZ-Software Page"
-url                      : "www.hmz-software.me"
+url                      : "www.hmz-software.cf"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "hmz777/hmz777.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -299,18 +299,18 @@ collections:
 defaults:
   # _posts
   - scope:
-      path: "_posts"
+      path: ""
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
       related: true
   # _pages
   - scope:
-      path: "_pages"
+      path: ""
       type: pages
     values:
       layout: single
