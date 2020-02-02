@@ -1,0 +1,37 @@
+<meta charset="utf-8">
+
+{% include seo.html %}
+
+<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"
+  type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Poppins:400,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="\assets\js\MyJs\bootstrap\css\bootstrap.min.css">
+<link rel="stylesheet" href="\assets\js\MyJs\aos\aos.css">
+<link rel="stylesheet" href="\assets\js\MyJs\perfect-scrollbar\OverlayScrollbars.min.css">
+<link rel="stylesheet" href="\assets\js\MyJs\perfect-scrollbar\os-theme-block-light.css">
+<link rel="stylesheet" href="\assets\css\HMZ.css">
+<link rel="stylesheet" href="\assets\css\HMZ-Index.css">
+<title>Hamzi Alsheikh | Mechatronics Engineer - Software Developer</title>
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
