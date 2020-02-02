@@ -1,13 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<url><loc>https://www.hmz-software.cf/</loc><lastmod>2020-01-15T03:13:23+00:00</lastmod><changefreq>daily</changefreq><priority>1.00</priority></url>
-<url><loc>https://www.hmz-software.cf/posts/</loc><lastmod>2020-01-15T03:13:23+00:00</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
-<url><loc>https://www.hmz-software.cf/netstalker/</loc><lastmod>2020-01-15T03:13:23+00:00</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
-<url><loc>https://www.hmz-software.cf/moviegate-3.0/</loc><lastmod>2020-01-15T03:13:23+00:00</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
-<url><loc>https://www.hmz-software.cf/tags/</loc><lastmod>2020-01-15T03:13:23+00:00</lastmod><changefreq>daily</changefreq><priority>0.69</priority></url>
-<url><loc>https://www.hmz-software.cf/about/</loc><lastmod>2020-01-15T03:13:23+00:00</lastmod><changefreq>daily</changefreq><priority>0.69</priority></url>
-<url><loc>https://www.hmz-software.cf/creating-a-windows-service/</loc><lastmod>2020-01-15T03:13:23+00:00</lastmod><changefreq>daily</changefreq><priority>0.69</priority></url>
-<url><loc>https://www.hmz-software.cf/moviegate-2.0/</loc><lastmod>2020-01-15T03:13:23+00:00</lastmod><changefreq>daily</changefreq><priority>0.69</priority></url>
-<url><loc>https://www.hmz-software.cf/moviegate/</loc><lastmod>2020-01-15T03:13:23+00:00</lastmod><changefreq>daily</changefreq><priority>0.69</priority></url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.hmz-software.cf/</loc>
+  <lastmod>2020-02-02T17:02:36+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.hmz-software.cf/posts/</loc>
+  <lastmod>2020-02-02T17:02:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.hmz-software.cf/netstalker/</loc>
+  <lastmod>2020-02-02T17:02:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.hmz-software.cf/moviegate-3.0/</loc>
+  <lastmod>2020-02-02T17:02:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.hmz-software.cf/tags/</loc>
+  <lastmod>2020-02-02T17:02:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hmz-software.cf/about/</loc>
+  <lastmod>2020-02-02T17:02:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hmz-software.cf/creating-a-windows-service/</loc>
+  <lastmod>2020-02-02T17:02:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hmz-software.cf/moviegate-2.0/</loc>
+  <lastmod>2020-02-02T17:02:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hmz-software.cf/moviegate/</loc>
+  <lastmod>2020-02-02T17:02:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
- 
