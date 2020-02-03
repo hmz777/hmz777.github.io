@@ -6,7 +6,5 @@ main:
     url: /Tags/
   - title: "About"
     url: /About/
-  - title: "Sitemap"
-    url: /Sitemap/
   - title: "Terms and Privacy Policy"
     url: /Terms/
