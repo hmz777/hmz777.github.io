@@ -1,5 +1,6 @@
 ---
 title: "About Me"
+excerpt: "Some words about me."
 permalink: /About/
 date: 2019-01-17T00:00:00+00:00
 ---

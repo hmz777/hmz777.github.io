@@ -3,8 +3,10 @@ main:
   - title: "Posts"
     url: /Posts/
   - title: "Tags"
-    url: /Tags/ 
+    url: /Tags/
   - title: "About"
     url: /About/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Sitemap"
+    url: /Sitemap/
+  - title: "Terms and Privacy Policy"
+    url: /Terms/
