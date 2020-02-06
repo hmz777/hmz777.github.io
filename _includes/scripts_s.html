@@ -10,3 +10,14 @@
 <script type="text/javascript" src="\assets\js\MyJs\perfect-scrollbar\jquery.nicescroll.js"></script>
 <script type="text/javascript" src="\assets\js\MyJs\perfect-scrollbar\OverlayScrollbars.min.js"></script>
 <script type="text/javascript" src="\assets\js\MyJs\HMZ.min.js"></script>
+<script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
