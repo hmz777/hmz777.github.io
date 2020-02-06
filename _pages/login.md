@@ -1,5 +1,6 @@
 ---
 title: "Login Portal"
+permalink: /Login/
 sitemap: false
 excerpt: "Content Management"
 layout: login
