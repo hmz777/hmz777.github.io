@@ -29,49 +29,47 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: "Author Profile", name: "author_profile", widget: "boolean"}
-      - {label: "Entries Layout", name: "entries_layout", widget: "string"}
-      - {label: "Collection", name: "collection", widget: "string"}
+      - {label: "Collection", name: "collection", widget: "string", required: false}
       - label: "Header"
         name: "header"
         widget: "object"
         fields:
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Image Description", name: "image_description", widget: "string"}
-          - {label: "Caption", name: "caption", widget: "string"}
-          - {label: "Overlay Image", name: "overlay_image", widget: "image"}
-          - {label: "OG Image", name: "og_image", widget: "image"}
+          - {label: "Image", name: "image", widget: "image", required: false}
+          - {label: "Image Description", name: "image_description", widget: "string", required: false}
+          - {label: "Caption", name: "caption", widget: "string", required: false}
+          - {label: "Overlay Image", name: "overlay_image", widget: "image", required: false}
+          - {label: "OG Image", name: "og_image", widget: "image", required: false}
           - label: "Actions"
             name: "actions"
             widget: "object"
             fields:
-            - {label: "Label", name: "label", widget: "string"}
-            - {label: "URL", name: "url", widget: "string"}
-            - {label: "Label", name: "label", widget: "string"}
-            - {label: "URL", name: "url", widget: "string"}
-          - {label: "Overlay Color", name: "overlay_color", widget: "string"}
-          - {label: "Overlay Filter", name: "overlay_filter", widget: "number"}
+            - {label: "Label", name: "label", widget: "string", required: false}
+            - {label: "URL", name: "url", widget: "string", required: false}
+            - {label: "Label", name: "label", widget: "string", required: false}
+            - {label: "URL", name: "url", widget: "string", required: false}
+          - {label: "Overlay Color", name: "overlay_color", widget: "string", required: false}
+          - {label: "Overlay Filter", name: "overlay_filter", widget: "number", required: false}
       - label: "Sidebar"
         name: "sidebar"
         widget: "object"
         fields:
-            - {label: "Title", name: "title", widget: "string"}
-            - {label: "Image", name: "image", widget: "image"}
-            - {label: "Image Alt", name: "image_alt", widget: "string"}
-            - {label: "Text", name: "text", widget: "string"}
-            - {label: "Title", name: "title", widget: "string"}
-            - {label: "Text", name: "text", widget: "string"}
+            - {label: "Title", name: "title", widget: "string", required: false}
+            - {label: "Image", name: "image", widget: "image", required: false}
+            - {label: "Image Alt", name: "image_alt", widget: "string", required: false}
+            - {label: "Text", name: "text", widget: "string", required: false}
+            - {label: "Title", name: "title", widget: "string", required: false}
+            - {label: "Text", name: "text", widget: "string", required: false}
       - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
       - {label: "Excerpt", name: "excerpt", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Classes", name: "classes", widget: "list"}
-      - {label: "Canonical Url", name: "canonical_url", widget: "string"}
-      - {label: "Toc", name: "toc", widget: "boolean"}
-      - {label: "Toc Label", name: "toc_label", widget: "string"}
-      - {label: "Toc Icon", name: "toc_icon", widget: "string"}
-      - {label: "Taxonomy", name: "taxonomy", widget: "string"}
+      - {label: "Classes", name: "classes", widget: "list", required: false}
+      - {label: "Canonical Url", name: "canonical_url", widget: "string", required: false}
+      - {label: "Toc", name: "toc", widget: "boolean", required: false}
+      - {label: "Toc Label", name: "toc_label", widget: "string", required: false}
+      - {label: "Toc Icon", name: "toc_icon", widget: "string", required: false}
+      - {label: "Taxonomy", name: "taxonomy", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "Pages" # Used in routes, e.g., /admin/collections/blog
@@ -84,45 +82,45 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: "Author Profile", name: "author_profile", widget: "boolean"}
-      - {label: "Entries Layout", name: "entries_layout", widget: "string"}
-      - {label: "Collection", name: "collection", widget: "string"}
+      - {label: "Entries Layout", name: "entries_layout", widget: "string", required: false}
+      - {label: "Collection", name: "collection", widget: "string", required: false}
       - label: "Header"
         name: "header"
         widget: "object"
         fields:
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Image Description", name: "image_description", widget: "string"}
-          - {label: "Caption", name: "caption", widget: "string"}
-          - {label: "Overlay Image", name: "overlay_image", widget: "image"}
-          - {label: "OG Image", name: "og_image", widget: "image"}
+          - {label: "Image", name: "image", widget: "image", required: false}
+          - {label: "Image Description", name: "image_description", widget: "string", required: false}
+          - {label: "Caption", name: "caption", widget: "string", required: false}
+          - {label: "Overlay Image", name: "overlay_image", widget: "image", required: false}
+          - {label: "OG Image", name: "og_image", widget: "image", required: false}
           - label: "Actions"
             name: "actions"
             widget: "object"
             fields:
-            - {label: "Label", name: "label", widget: "string"}
-            - {label: "URL", name: "url", widget: "string"}
-            - {label: "Label", name: "label", widget: "string"}
-            - {label: "URL", name: "url", widget: "string"}
-          - {label: "Overlay Color", name: "overlay_color", widget: "string"}
-          - {label: "Overlay Filter", name: "overlay_filter", widget: "number"}
+            - {label: "Label", name: "label", widget: "string", required: false}
+            - {label: "URL", name: "url", widget: "string", required: false}
+            - {label: "Label", name: "label", widget: "string", required: false}
+            - {label: "URL", name: "url", widget: "string", required: false}
+          - {label: "Overlay Color", name: "overlay_color", widget: "string", required: false}
+          - {label: "Overlay Filter", name: "overlay_filter", widget: "number", required: false}
       - label: "Sidebar"
         name: "sidebar"
         widget: "object"
         fields:
-            - {label: "Title", name: "title", widget: "string"}
-            - {label: "Image", name: "image", widget: "image"}
-            - {label: "Image Alt", name: "image_alt", widget: "string"}
-            - {label: "Text", name: "text", widget: "string"}
-            - {label: "Title", name: "title", widget: "string"}
-            - {label: "Text", name: "text", widget: "string"}
+            - {label: "Title", name: "title", widget: "string", required: false}
+            - {label: "Image", name: "image", widget: "image", required: false}
+            - {label: "Image Alt", name: "image_alt", widget: "string", required: false}
+            - {label: "Text", name: "text", widget: "string", required: false}
+            - {label: "Title", name: "title", widget: "string", required: false}
+            - {label: "Text", name: "text", widget: "string", required: false}
       - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
       - {label: "Excerpt", name: "excerpt", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Classes", name: "classes", widget: "list"}
-      - {label: "Canonical Url", name: "canonical_url", widget: "string"}
-      - {label: "Toc", name: "toc", widget: "boolean"}
-      - {label: "Toc Label", name: "toc_label", widget: "string"}
-      - {label: "Toc Icon", name: "toc_icon", widget: "string"}
-      - {label: "Taxonomy", name: "taxonomy", widget: "string"}
+      - {label: "Classes", name: "classes", widget: "list", required: false}
+      - {label: "Canonical Url", name: "canonical_url", widget: "string", required: false}
+      - {label: "Toc", name: "toc", widget: "boolean", required: false}
+      - {label: "Toc Label", name: "toc_label", widget: "string", required: false}
+      - {label: "Toc Icon", name: "toc_icon", widget: "string", required: false}
+      - {label: "Taxonomy", name: "taxonomy", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
