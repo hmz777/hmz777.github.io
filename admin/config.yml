@@ -5,20 +5,63 @@ publish_mode: editorial_workflow
 media_folder: "assets/images"
   
 collections:
+  - name: "config"
+    label: "Config"
+    editor:
+      preview: false
+    files:
+      - label: "Navigation"
+        name: "navigation"
+        file: "_data/navigation.yml"
+        fields:
+          - label: "Navigation Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: URL, name: url, widget: string}
+
   - name: "Posts" # Used in routes, e.g., /admin/collections/blog
-    label: "Posts" # Used in the UI
+    label: "Post" # Used in the UI
     folder: "_posts/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Layout", name: "layout", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: "Author Profile", name: "author_profile", widget: "boolean"}
       - {label: "Entries Layout", name: "entries_layout", widget: "string"}
       - {label: "Collection", name: "collection", widget: "string"}
-      - {label: "Header", name: "header", widget: "object"}
-      - {label: "Sidebar", name: "sidebar", widget: "object"}
+      - label: "Header"
+        name: "header"
+        widget: "object"
+        fields:
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Image Description", name: "image_description", widget: "string"}
+          - {label: "Caption", name: "caption", widget: "string"}
+          - {label: "Overlay Image", name: "overlay_image", widget: "image"}
+          - {label: "OG Image", name: "og_image", widget: "image"}
+          - label: "Actions"
+            name: "actions"
+            widget: "object"
+            fields:
+            - {label: "Label", name: "label", widget: "string"}
+            - {label: "URL", name: "url", widget: "string"}
+            - {label: "Label", name: "label", widget: "string"}
+            - {label: "URL", name: "url", widget: "string"}
+          - {label: "Overlay Color", name: "overlay_color", widget: "string"}
+          - {label: "Overlay Filter", name: "overlay_filter", widget: "number"}
+      - label: "Sidebar"
+        name: "sidebar"
+        widget: "object"
+        fields:
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Image", name: "image", widget: "image"}
+            - {label: "Image Alt", name: "image_alt", widget: "string"}
+            - {label: "Text", name: "text", widget: "string"}
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Text", name: "text", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Excerpt", name: "excerpt", widget: "string"}
@@ -32,19 +75,46 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "Pages" # Used in routes, e.g., /admin/collections/blog
-    label: "Pages" # Used in the UI
+    label: "Page" # Used in the UI
     folder: "_pages/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Layout", name: "layout", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: "Author Profile", name: "author_profile", widget: "boolean"}
       - {label: "Entries Layout", name: "entries_layout", widget: "string"}
       - {label: "Collection", name: "collection", widget: "string"}
-      - {label: "Header", name: "header", widget: "object"}
-      - {label: "Sidebar", name: "sidebar", widget: "object"}
+      - label: "Header"
+        name: "header"
+        widget: "object"
+        fields:
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Image Description", name: "image_description", widget: "string"}
+          - {label: "Caption", name: "caption", widget: "string"}
+          - {label: "Overlay Image", name: "overlay_image", widget: "image"}
+          - {label: "OG Image", name: "og_image", widget: "image"}
+          - label: "Actions"
+            name: "actions"
+            widget: "object"
+            fields:
+            - {label: "Label", name: "label", widget: "string"}
+            - {label: "URL", name: "url", widget: "string"}
+            - {label: "Label", name: "label", widget: "string"}
+            - {label: "URL", name: "url", widget: "string"}
+          - {label: "Overlay Color", name: "overlay_color", widget: "string"}
+          - {label: "Overlay Filter", name: "overlay_filter", widget: "number"}
+      - label: "Sidebar"
+        name: "sidebar"
+        widget: "object"
+        fields:
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Image", name: "image", widget: "image"}
+            - {label: "Image Alt", name: "image_alt", widget: "string"}
+            - {label: "Text", name: "text", widget: "string"}
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Text", name: "text", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Excerpt", name: "excerpt", widget: "string"}
